@@ -96,7 +96,7 @@
 
   /* Active state for mobile nav menu */
   .nav-menu.active {
-    display: flex;
+    display: flex !important;
   }
 
   /* Mobile nav menu list items */
