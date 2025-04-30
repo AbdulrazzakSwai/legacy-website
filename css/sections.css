@@ -1,6 +1,9 @@
 /* sections.css */
 
-/* === Unified Dot Pattern for Content Sections === */
+/* ============================
+   Unified Dot Pattern for Content Sections
+============================ */
+
 #stats,
 #projects,
 #recent-achievements,
@@ -29,7 +32,10 @@
   z-index: 0;
 }
 
-/* === Ensure Content Layers Above Background Pattern === */
+/* ============================
+   Ensure Content Layers Above Background Pattern
+============================ */
+
 #stats > *,
 #projects > *,
 #recent-achievements > *,
@@ -39,7 +45,10 @@
   z-index: 1;
 }
 
-/* === Mini Projects List === */
+/* ============================
+   Mini Projects List Styles
+============================ */
+
 .mini-projects-list {
   list-style-type: none;
   padding-left: 0;
@@ -62,7 +71,10 @@
   top: 5px;
 }
 
-/* === Achievements List === */
+/* ============================
+   Achievements List Styles
+============================ */
+
 .achievements-list {
   list-style-type: none;
   padding-left: 0;
@@ -86,7 +98,10 @@
   top: 2px;
 }
 
-/* === connect Section === */
+/* ============================
+   Connect Section Styles
+============================ */
+
 #connect {
   text-align: left;
 }
@@ -111,7 +126,10 @@
   color: #f1f1f1;
 }
 
-/* === Footer === */
+/* ============================
+   Footer Styles
+============================ */
+
 footer {
   background-color: #121212;
   color: #f1f1f1;
