@@ -1,6 +1,10 @@
 /* components.css */
 
-/* Welcome Section */
+/* ============================
+   Welcome Section Styles
+============================ */
+
+/* Container for the welcome section */
 .welcome-section {
   height: 100vh;
   display: flex;
@@ -11,6 +15,7 @@
   padding: 20px;
 }
 
+/* Background for the welcome section */
 .welcome-background {
   position: absolute;
   top: 0;
@@ -21,6 +26,7 @@
   z-index: -1;
 }
 
+/* Content inside the welcome section */
 .welcome-content h1 {
   font-size: 36px;
   color: #1db954;
@@ -31,7 +37,12 @@
   margin-top: 10px;
 }
 
-/* Stat Cards */
+
+/* ============================
+   Stat Cards Styles
+============================ */
+
+/* Container for the stat cards */
 .statistics-container {
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +50,7 @@
   gap: 30px;
 }
 
+/* Individual stat card styling */
 .stat-card {
   background-color: #121212;
   padding: 20px;
@@ -55,24 +67,32 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover effect on stat cards */
 .stat-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
 }
 
+/* Stat card heading style */
 .stat-card h3 {
   font-size: 20px;
   color: #1db954;
   margin-bottom: 10px;
 }
 
+/* Stat card number styling */
 .stat-number {
   font-size: 40px;
   font-weight: bold;
   color: #f1f1f1;
 }
 
-/* Details Box */
+
+/* ============================
+   Stat Details Box Styles
+============================ */
+
+/* Container for stat details box */
 .stat-details {
   margin-top: 30px;
   padding: 20px;
@@ -85,6 +105,7 @@
   margin-right: auto;
 }
 
+/* List inside stat details box */
 .stat-details ul {
   list-style: none;
   padding-left: 0;
@@ -94,16 +115,23 @@
   margin-bottom: 10px;
 }
 
+/* Links inside stat details */
 .stat-details ul li a {
   color: #f1f1f1;
   text-decoration: none;
 }
 
+/* Hover effect for links inside stat details */
 .stat-details ul li a:hover {
   color: #1db954;
 }
 
+
+/* ============================
+   Utility Classes
+============================ */
+
+/* Class to hide elements */
 .hidden {
   display: none;
 }
-
