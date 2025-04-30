@@ -1,3 +1,18 @@
+/* layout.css */
+
+/* ============================
+   Base Styles
+============================ */
+
+/* Ensure box-sizing is predictable */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* ============================
    Navbar Styles
 ============================ */
@@ -13,7 +28,7 @@
   z-index: 100;
 }
 
-/* Navbar content container */
+/* Navbar content wrapper */
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -29,77 +44,71 @@
   text-decoration: none;
 }
 
-/* Navbar menu */
-.navbar ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar ul li {
-  margin-left: 20px;
-}
-
-/* Navbar links */
-.navbar ul li a {
-  color: #f1f1f1;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-/* Navbar links hover effect */
-.navbar ul li a:hover {
-  color: #1db954;
-}
-
-/* Hamburger button - hidden on desktop */
+/* Hamburger button (mobile) */
 .hamburger {
-  display: none;
-  font-size: 30px;
+  display: block;        /* shown on mobile by default */
+  font-size: 24px;
   background: none;
   border: none;
   color: #f1f1f1;
   cursor: pointer;
 }
 
-/* Default desktop nav-menu */
+/* Nav Menu (hidden by default on mobile) */
 .nav-menu {
+  display: none;
+  list-style: none;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+/* When active (toggled) on mobile */
+.nav-menu.active {
   display: flex;
-  flex-direction: row;
+}
+
+/* Nav items */
+.nav-menu li {
+  margin: 10px 0;
+}
+
+.nav-menu li a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-menu li a:hover {
+  color: #1db954;
 }
 
 /* ============================
-   Responsive Styles
+   Desktop Overrides
 ============================ */
 
-@media (max-width: 768px) {
-  /* Navbar on mobile */
+@media (min-width: 769px) {
+  /* Keep navbar as a row */
   .navbar-container {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
   }
 
-  /* Hamburger button visibility on mobile */
+  /* Hide the hamburger icon */
   .hamburger {
-    display: block;
-    align-self: flex-end;
+    display: none;
   }
 
-   .nav-menu {
-     display: none; /* Hidden by default */
-     flex-direction: column;
-     width: 100%;
-     padding-top: 10px;
-   }
-   
-   .nav-menu.active {
-     display: flex;
-   }
+  /* Show nav menu as a horizontal list */
+  .nav-menu {
+    display: flex !important;  /* force flex on desktop */
+    flex-direction: row;
+    width: auto;
+    padding: 0;
+  }
 
-  /* Mobile nav menu list items */
   .nav-menu li {
-    margin: 10px 0;
+    margin: 0 20px 0 0;
   }
 }
 
@@ -107,13 +116,11 @@
    Section and Divider Styles
 ============================ */
 
-/* General section styling */
 .section {
   padding: 60px 40px;
   margin-top: 60px;
 }
 
-/* Divider between sections */
 .section-divider {
   width: 100%;
   height: 2px;
@@ -121,224 +128,8 @@
   margin: 40px 0;
 }
 
-/* Section heading */
 h2 {
   font-size: 28px;
   color: #1db954;
   margin-bottom: 30px;
-}
-
-/* ============================
-   Stat Cards Styles
-============================ */
-
-/* Container for the stat cards */
-.statistics-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 30px;
-}
-
-/* Individual stat card styling */
-.stat-card {
-  background-color: #121212;
-  padding: 20px;
-  width: 200px;
-  height: 180px;
-  border-radius: 10px;
-  text-align: center;
-  cursor: pointer;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Hover effect on stat cards */
-.stat-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
-}
-
-/* Stat card heading style */
-.stat-card h3 {
-  font-size: 20px;
-  color: #1db954;
-  margin-bottom: 10px;
-}
-
-/* Stat card number styling */
-.stat-number {
-  font-size: 40px;
-  font-weight: bold;
-  color: #f1f1f1;
-}
-
-/* ============================
-   Stat Details Box Styles
-============================ */
-
-/* Container for stat details box */
-.stat-details {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: #1a1a1a;
-  border-left: 3px solid #1db954;
-  border-radius: 8px;
-  font-size: 16px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* List inside stat details box */
-.stat-details ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.stat-details ul li {
-  margin-bottom: 10px;
-}
-
-/* Links inside stat details */
-.stat-details ul li a {
-  color: #f1f1f1;
-  text-decoration: none;
-}
-
-/* Hover effect for links inside stat details */
-.stat-details ul li a:hover {
-  color: #1db954;
-}
-
-/* ============================
-   Welcome Section Styles
-============================ */
-
-.welcome-section {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  text-align: center;
-  padding: 20px;
-}
-
-.welcome-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle, rgba(0, 255, 127, 0.15) 0%, rgba(0, 0, 0, 0.9) 100%);
-  z-index: -1;
-}
-
-.welcome-content h1 {
-  font-size: 36px;
-  color: #1db954;
-}
-
-.welcome-content p {
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-/* ============================
-   Mini Projects List Styles
-============================ */
-
-.mini-projects-list {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.mini-projects-list li {
-  font-size: 18px;
-  margin-bottom: 10px;
-  padding-left: 30px;
-  position: relative;
-  line-height: 1.6;
-}
-
-.mini-projects-list li::before {
-  content: '•';
-  position: absolute;
-  left: 0;
-  color: #1db954;
-  font-size: 24px;
-  top: 5px;
-}
-
-/* ============================
-   Achievements List Styles
-============================ */
-
-.achievements-list {
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 20px;
-}
-
-.achievements-list li {
-  font-size: 18px;
-  margin-bottom: 12px;
-  padding-left: 30px;
-  position: relative;
-  line-height: 1.6;
-}
-
-.achievements-list li::before {
-  content: '⭐';
-  position: absolute;
-  left: 0;
-  color: #1db954;
-  font-size: 16px;
-  top: 2px;
-}
-
-/* ============================
-   Connect Section Styles
-============================ */
-
-#connect {
-  text-align: left;
-}
-
-.social-links.left-aligned {
-  text-align: left;
-  margin-top: 10px;
-}
-
-.social-links.left-aligned li {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.social-links a {
-  color: #1db954;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.social-links a:hover {
-  color: #f1f1f1;
-}
-
-/* ============================
-   Footer Styles
-============================ */
-
-footer {
-  background-color: #121212;
-  color: #f1f1f1;
-  text-align: center;
-  padding: 20px;
-  margin-top: 60px;
-  font-size: 14px;
 }
