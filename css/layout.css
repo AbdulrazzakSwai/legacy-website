@@ -86,18 +86,16 @@
     align-self: flex-end;
   }
 
-  /* Mobile nav menu */
-  .nav-menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    padding-top: 10px;
-  }
-
-  /* Active state for mobile nav menu */
-  .nav-menu.active {
-    display: flex !important;
-  }
+   .nav-menu {
+     display: none; /* Hidden by default */
+     flex-direction: column;
+     width: 100%;
+     padding-top: 10px;
+   }
+   
+   .nav-menu.active {
+     display: flex;
+   }
 
   /* Mobile nav menu list items */
   .nav-menu li {
