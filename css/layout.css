@@ -4,7 +4,7 @@
    Base Styles
 ============================ */
 
-/* Ensure box-sizing is predictable */
+/* Consistent box sizing */
 *,
 *::before,
 *::after {
@@ -31,12 +31,14 @@
 /* Navbar content wrapper */
 .navbar-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; /* Allows nav menu to drop below on mobile */
   padding: 0 20px;
 }
 
-/* Logo in navbar */
+/* Logo */
 .logo {
   color: #1db954;
   font-size: 24px;
@@ -46,7 +48,7 @@
 
 /* Hamburger button (mobile) */
 .hamburger {
-  display: block;        /* shown on mobile by default */
+  display: block;
   font-size: 24px;
   background: none;
   border: none;
@@ -54,21 +56,21 @@
   cursor: pointer;
 }
 
-/* Nav Menu (hidden by default on mobile) */
+/* Nav menu (hidden by default on mobile) */
 .nav-menu {
   display: none;
-  list-style: none;
-  width: 100%;
   flex-direction: column;
+  width: 100%;
   padding-top: 10px;
+  list-style: none;
 }
 
-/* When active (toggled) on mobile */
+/* Show menu when active */
 .nav-menu.active {
   display: flex;
 }
 
-/* Nav items */
+/* Nav menu items */
 .nav-menu li {
   margin: 10px 0;
 }
@@ -88,27 +90,23 @@
 ============================ */
 
 @media (min-width: 769px) {
-  /* Keep navbar as a row */
   .navbar-container {
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: nowrap;
   }
 
-  /* Hide the hamburger icon */
   .hamburger {
     display: none;
   }
 
-  /* Show nav menu as a horizontal list */
   .nav-menu {
-    display: flex !important;  /* force flex on desktop */
+    display: flex !important;
     flex-direction: row;
     width: auto;
-    padding: 0;
+    padding-top: 0;
   }
 
   .nav-menu li {
-    margin: 0 20px 0 0;
+    margin: 0 0 0 20px;
   }
 }
 
