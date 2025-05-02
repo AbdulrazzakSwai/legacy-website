@@ -18,15 +18,31 @@ document.addEventListener('DOMContentLoaded', () => {
   if (certificationsAwardedCounter) {
     certificationsAwardedCounter.innerText = '1';
   }
+
+  // ─── IntersectionObserver for Terminal Typing ───
+  const terminalBody = document.getElementById('terminal-body');
+  if (terminalBody) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !terminalStarted) {
+          terminalStarted = true;
+          typeTerminal(terminalLines, '#terminal-body', 25, 200);
+        }
+      });
+    }, {
+      threshold: 0.5  // start when 50% of the terminal is visible
+    });
+    observer.observe(terminalBody);
+  }
 });
 
-// Animate a single counter with synced timing
+
+// ─── Counter Animation ───
 function animateCounter(counter, duration = 2000) {
   const target = +counter.getAttribute('data-target');
   const startTime = performance.now();
-  const showPlus = counter.classList.contains('with-plus'); // Check if the counter needs a '+'
+  const showPlus = counter.classList.contains('with-plus');
 
-  // Ease-out function
   function easeOut(t) {
     return 1 - Math.pow(1 - t, 3);
   }
@@ -34,15 +50,14 @@ function animateCounter(counter, duration = 2000) {
   function update(currentTime) {
     const elapsed = currentTime - startTime;
     const progress = Math.min(elapsed / duration, 1);
-    const easedProgress = easeOut(progress);  // Apply easing
+    const eased = easeOut(progress);
+    const value = Math.floor(eased * target);
 
-    const value = Math.floor(easedProgress * target); // Use eased progress to calculate the value
     counter.innerText = value;
 
     if (progress < 1) {
       requestAnimationFrame(update);
     } else {
-      // Append the '+' if the class is present
       counter.innerText = showPlus ? `${target}+` : target;
     }
   }
@@ -50,26 +65,56 @@ function animateCounter(counter, duration = 2000) {
   requestAnimationFrame(update);
 }
 
-
 // Detect if counters are in view, then start animation
 function handleScrollAnimation() {
-  const counters = document.querySelectorAll('.stat-number');
-
-  counters.forEach(counter => {
-    if (counter.getAttribute('data-target') === '1') {
-      return;
-    }
+  document.querySelectorAll('.stat-number').forEach(counter => {
+    if (counter.getAttribute('data-target') === '1') return;
 
     const rect = counter.getBoundingClientRect();
-    const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
-
-    if (isVisible && !counter.classList.contains('started')) {
+    if (rect.top < window.innerHeight && rect.bottom >= 0 && !counter.classList.contains('started')) {
       counter.classList.add('started');
       animateCounter(counter, 1500);
     }
   });
 }
 
-// Listen for scroll or page load
 window.addEventListener('scroll', handleScrollAnimation);
 window.addEventListener('load', handleScrollAnimation);
+
+
+// ─── Terminal Typing Effect ───
+const terminalLines = [
+	{ text: '> cat projects.txt', class: 'command' },
+	{ text: '- Built two (2) Active Directory home labs with domain controllers & connected machines', class: 'line' },
+	{ text: '- Wrote custom Bash script to automate Nmap scanning (targets, ports, enumeration)', class: 'line' },
+	{ text: "- Built this very website you're browsing :)", class: 'line' },
+];
+
+let terminalStarted = false;
+
+function typeTerminal(lines, containerSelector, speed = 50, pause = 300) {
+  const container = document.querySelector(containerSelector);
+  let i = 0;
+
+  function typeLine() {
+    if (i >= lines.length) return;
+    const { text, class: cls } = lines[i];
+    const el = document.createElement('div');
+    el.classList.add('line', cls);
+    container.appendChild(el);
+
+    let char = 0;
+    function tick() {
+      if (char < text.length) {
+        el.textContent += text[char++];
+        setTimeout(tick, speed);
+      } else {
+        i++;
+        setTimeout(typeLine, pause);
+      }
+    }
+    tick();
+  }
+
+  typeLine();
+}
