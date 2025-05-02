@@ -140,6 +140,7 @@
   font-family: 'Roboto Mono', monospace;
   border-radius: 6px;
   padding: 1rem;
+  width: 100%;
   max-width: 900px;
   margin: 2rem auto;
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -164,8 +165,8 @@
 .circle.green  { background: #27c93f; }
 
 .terminal-body .line {
-  white-space: pre;       /* preserve spaces */
-  overflow: hidden;       /* hide text until typed */
+  white-space: pre;
+  overflow: hidden;
   display: block;
   font-size: 1rem;
   margin: 0.25rem 0;
@@ -178,6 +179,17 @@
 #terminal-body {
   overflow-x: auto;
   white-space: nowrap;
-  max-width: 100%;
   box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  #terminal-body {
+    white-space: normal;
+    overflow-x: hidden;
+  }
+  
+  .terminal-body .line {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
 }
