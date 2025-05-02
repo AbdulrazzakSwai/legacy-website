@@ -11,15 +11,8 @@ Visit the live portfolio: [https://abdulrazzakswai.github.io](https://abdulrazza
 ## 👨‍💻 About Me
 
 - **Field**: Cybersecurity & Information Security
-- **Focus**: Threat detection, automation, ethical hacking, and lifelong learning
-- **Tools**: Bash, Python, PowerShell, Linux, Wireshark, Nmap, etc.
-
-## 🔓 Script License
-
-Scripts and automation code shared in this repository are available under the **MIT License**.  
-Feel free to use, modify, and share them with attribution.
-
-> THE SCRIPTS ARE PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND...
+- **Focus**: SOC Analysis, Ethical Hacking, and Lifelong Learning
+- **Goal**: Make learning more enjoyable
 
 ## 🚫 Site License
 
