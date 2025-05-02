@@ -174,3 +174,10 @@
 .terminal-body .command {
   color: #00ff00;
 }
+
+#terminal-body {
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 100%;
+  box-sizing: border-box;
+}
