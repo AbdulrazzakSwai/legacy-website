@@ -10,9 +10,9 @@ Visit the live portfolio: [https://abdulrazzakswai.github.io](https://abdulrazza
 
 ## 👨‍💻 About Me
 
-- **Field**: Cybersecurity & Information Security
-- **Focus**: SOC Analysis, Ethical Hacking, and Lifelong Learning
-- **Goal**: Make learning more enjoyable
+- **Field**: Cybersecurity & Information Security.
+- **Focus**: SOC Analysis, Ethical Hacking, and Lifelong Learning.
+- **Goal**: Make learning more enjoyable.
 
 ## 🚫 Site License
 
