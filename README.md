@@ -17,4 +17,4 @@ Visit the live portfolio: [https://abdulrazzakswai.github.io](https://abdulrazza
 ## 🚫 Site License
 
 The content, layout, and design of this website are **© 2025 Abdulrazzak Swai. All rights reserved.**  
-You may not copy, reuse, or redistribute the site’s HTML, CSS, or visual elements without written permission.
+You may not copy, reuse, or redistribute the site’s HTML, CSS, JS, or visual elements without written permission.
