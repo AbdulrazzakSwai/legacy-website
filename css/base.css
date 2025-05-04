@@ -1,0 +1,19 @@
+/* --------------------------------------
+   Base Styles
+   - Global resets and foundational setup
+----------------------------------------- */
+
+/* Reset default margins and paddings, set box-sizing, and define font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Set background, text color, and disable horizontal scrolling */
+body {
+  background-color: #0c0c0c;
+  color: #f1f1f1;
+  overflow-x: hidden;
+}

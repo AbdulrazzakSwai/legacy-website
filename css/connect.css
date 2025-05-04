@@ -1,0 +1,52 @@
+.connect-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.connect-section h2 {
+  font-size: 2rem;
+  color: #1db954;
+}
+
+.connect-section p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.styled-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.styled-links li {
+  list-style: none;
+}
+
+.styled-links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: 2px solid #1db954;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.styled-links a:hover {
+  background-color: #1db954;
+  transform: scale(1.05);
+}
+
+.styled-links .icon {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .styled-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
