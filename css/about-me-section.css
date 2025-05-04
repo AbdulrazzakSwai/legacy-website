@@ -5,14 +5,14 @@
 .about-me-section {
   position: relative;
   width: 100%;
-  min-height: auto; /* Avoid strict 100vh */
+  min-height: auto;
   height: auto;
   padding: 2rem;
   background-color: #111;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: auto; /* Allow vertical scrolling if needed */
+  overflow-y: auto;
 }
 
 .about-me-background {
