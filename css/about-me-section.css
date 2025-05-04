@@ -95,13 +95,12 @@
   border: 1px solid #0f0;
 }
 
-/* Adjust content layout for smaller screens */
 @media (max-width: 768px) {
   .about-me-content {
     flex-direction: column;
     align-items: center;
-    padding: 1.5rem; /* Reduce padding */
-    gap: 1.5rem; /* Adjust gap to ensure no overflow */
+    padding: 1.5rem;
+    gap: 1.5rem;
   }
 
   .about-avatar-container {
@@ -110,12 +109,12 @@
   }
 
   .about-info h2 {
-    font-size: 2rem; /* Reduce font size */
+    font-size: 2rem;
   }
 
   .about-info p {
-    font-size: 0.9rem; /* Further reduce font size */
-    line-height: 1.5; /* Adjust line height for readability */
+    font-size: 0.9rem;
+    line-height: 1.5;
   }
 
   .about-tags span {
@@ -124,10 +123,9 @@
   }
 }
 
-/* For extremely small screens, reduce avatar size */
 @media (max-width: 480px) {
   .about-avatar-container {
     width: 80px;
-    height: 80px; /* Smaller avatar */
+    height: 80px;
   }
 }
