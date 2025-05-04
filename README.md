@@ -1,17 +1,17 @@
 # Cybersecurity Portfolio – Abdulrazzak Swai
 
-Welcome to my personal portfolio website! I'm a cybersecurity student and continuous learner, passionate about securing systems, automating tasks, and sharing knowledge.
+Welcome to my personal portfolio website! I'm a cybersecurity student and continuous learner, passionate about securing systems, automating tasks, and sharing knowledge. I'm a web developer too!
 
 This site is built to showcase my background, projects, and technical skills, as well as to serve as a home for helpful scripts and automation tools I’ve created along the way.
 
 ## 🌐 Live Site
 
-Visit the live portfolio: [https://abdulrazzakswai.github.io](https://abdulrazzakswai.github.io)
+Visit the live portfolio: [https://abdulrazzakswai.me](https://abdulrazzakswai.me)
 
 ## 👨‍💻 About Me
 
-- **Field**: Cybersecurity & Information Security.
-- **Focus**: SOC Analysis, Ethical Hacking, and Lifelong Learning.
+- **Field**: Cybersecurity & Web Development.
+- **Focus**: SOC Analysis, Penetration Testings, Web Development, and Lifelong Learning.
 - **Goal**: Make learning more enjoyable.
 
 ## 🚫 Site License
