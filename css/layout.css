@@ -9,7 +9,6 @@
   padding: 0;
 }
 
-
 /* ======================================
    Navbar Styles
    - Sticky header with responsive menu
@@ -64,7 +63,6 @@
   transform-origin: bottom left;
 }
 
-
 /* ======================================
    Logo & Hamburger (Mobile Toggle)
 ========================================= */
@@ -84,21 +82,26 @@
   cursor: pointer;
 }
 
-
 /* ======================================
    Navigation Menu
    - Hidden by default on mobile
 ========================================= */
 .nav-menu {
-  display: none;
-  flex-direction: column;
+  position: absolute;
+  top: 60px;             /* Adjust based on your navbar height */
+  right: 0;
   width: 100%;
-  padding-top: 10px;
+  background-color: #121212;
+  flex-direction: column;
+  overflow: hidden;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out;
   list-style: none;
 }
 
 .nav-menu.active {
-  display: flex;
+  transform: scaleY(1);
 }
 
 .nav-menu li {
@@ -110,12 +113,12 @@
   text-decoration: none;
   font-size: 16px;
   transition: all 0.2s ease;
+  padding-left: 20px;  /* Add padding to the left of each link */
 }
 
 .nav-menu li a:hover {
   color: #1db954;
 }
-
 
 /* ======================================
    Desktop Navigation Overrides
@@ -134,13 +137,15 @@
     flex-direction: row;
     width: auto;
     padding-top: 0;
+    position: static;
+    transform: none;
+    overflow: visible;
   }
 
   .nav-menu li {
     margin-left: 20px;
   }
 }
-
 
 /* ======================================
    Section Layout & Dividers
