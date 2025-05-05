@@ -1,0 +1,97 @@
+.achievements-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.achievement-card {
+  background-color: #1c1c1c;
+  border-left: 4px solid #1db954;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.achievement-icon {
+  font-size: 1.8rem;
+}
+
+.achievement-text {
+  flex: 1;
+}
+
+.achievement-date {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.achievement-card:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+  animation: shine 0.5s forwards;
+}
+
+@keyframes shine {
+  to {
+    left: 100%;
+  }
+}
+
+.dossier-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.dossier-card {
+  background-color: #111;
+  border: 2px dashed #1db954;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 240px;
+  transform: rotate(-1.5deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.dossier-card:hover {
+  transform: rotate(0deg) scale(1.03);
+  box-shadow: 0 6px 16px rgba(29, 185, 84, 0.4);
+}
+
+.dossier-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #1db954;
+}
+
+.dossier-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+  color: #ccc;
+}
+
+.status-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  background-color: #1db95433;
+  color: #1db954;
+  text-transform: uppercase;
+  font-weight: bold;
+}
