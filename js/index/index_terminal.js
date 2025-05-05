@@ -1,7 +1,7 @@
 const terminalLines = [
   { text: '> cat projects.txt', class: 'command' },
-  { text: '- Built two (2) Active Directory home labs...', class: 'line' },
-  { text: '- Wrote custom Bash script...', class: 'line' },
+  { text: '- Built two (2) Active Directory home labs with domain controllers & connected machines', class: 'line' },
+  { text: '- Wrote custom Bash script to automate Nmap scanning (targets, ports, enumeration)', class: 'line' },
   { text: "- Built this very website you're browsing :)", class: 'line' },
 ];
 
