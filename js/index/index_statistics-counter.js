@@ -29,9 +29,13 @@ function animateCounter(counter, duration = 2000) {
     const progress = Math.min(elapsed / duration, 1);
     const eased = easeOut(progress);
     const value = Math.floor(eased * target);
-    counter.innerText = showPlus ? `${value}+` : value;
 
-    if (progress < 1) requestAnimationFrame(update);
+    if (progress < 1) {
+      counter.innerText = value;
+      requestAnimationFrame(update);
+    } else {
+      counter.innerText = showPlus ? `${target}+` : target;
+    }
   }
 
   requestAnimationFrame(update);
