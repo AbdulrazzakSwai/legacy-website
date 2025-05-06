@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! I'm a cybersecurity student and continuous learner, passionate about securing systems, automating tasks, and sharing knowledge. I'm a web developer too!
 
-This site is built to showcase my background, projects, and technical skills, as well as to serve as a home for helpful scripts and automation tools I’ve created along the way.
+This site is built to showcase my background, projects, and technical skills.
 
 ## 🌐 Live Site
 
