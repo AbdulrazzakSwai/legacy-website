@@ -1,0 +1,109 @@
+.education-courses table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: rgba(20, 20, 20, 0.8);
+  border: solid #1db954;
+  border-radius: 0 0 10px 10px;
+}
+
+.education-courses th,
+.education-courses td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #333;
+  color: #ccc;
+}
+
+.education-courses th {
+  background-color: #1db954;
+  color: #000;
+  font-weight: bold;
+}
+
+.education-courses tr:hover {
+  background-color: #222;
+}
+
+.education-courses a {
+  color: #1db954;
+  text-decoration: underline;
+}
+
+#courses-fallback {
+  font-style: italic;
+  margin-top: 1rem;
+  color: #888;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .education-courses table {
+    display: none;
+  }
+
+  .education-courses .course-card {
+    display: block;
+    margin-bottom: 20px;
+    background-color: rgba(20, 20, 20, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 1px #1db954;
+  }
+
+  .course-card .card-header {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #1db954;
+    margin-bottom: 5px;
+  }
+
+  .course-card .card-content {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    color: #ccc;
+  }
+
+  .course-card a {
+    color: #1db954;
+    text-decoration: underline;
+    font-size: 0.95rem;
+  }
+	
+	.education-courses > p {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .education-courses table {
+    display: table;
+  }
+
+  .education-courses .course-card {
+    display: none;
+  }
+}
+
+.education-courses .note {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #888;
+  text-align: center;
+}
+
+.education-courses .note a {
+  color: #1db954;
+  text-decoration: underline;
+}
+
+.education-courses .note a:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .education-courses .note {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

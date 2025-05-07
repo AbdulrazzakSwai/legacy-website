@@ -1,0 +1,46 @@
+export function loadCoursesFromCSV() {
+  fetch('csv/courses.csv')
+    .then(response => {
+      if (!response.ok) throw new Error('Network response was not ok');
+      return response.text();
+    })
+    .then(data => {
+      const rows = data.trim().split('\n').slice(1);
+      const tbody = document.getElementById('courses-table-body');
+      const container = document.getElementById('courses-container');
+
+      tbody.innerHTML = '';
+      container.querySelectorAll('.course-card').forEach(card => card.remove());
+
+      rows.forEach(row => {
+        const [course, type, provider, link] = row.split(',');
+
+        const isTryHackMe = provider === 'TryHackMe';
+        const linkElement = `<a href="${link}" target="_blank" rel="noopener noreferrer">View</a>`;
+        const certificateText = isTryHackMe ? `${linkElement} *` : linkElement;
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${course}</td>
+          <td>${type}</td>
+          <td>${provider}</td>
+          <td>${certificateText}</td>
+        `;
+        tbody.appendChild(tr);
+
+        const card = document.createElement('div');
+        card.className = 'course-card';
+        card.innerHTML = `
+          <div class="card-header">${course}</div>
+          <div class="card-content"><strong>Area:</strong> ${type}</div>
+          <div class="card-content"><strong>Provider:</strong> ${provider}</div>
+          <div class="card-content">${certificateText}</div>
+        `;
+        container.appendChild(card);
+      });
+    })
+    .catch(error => {
+      document.getElementById('courses-fallback').style.display = 'block';
+      console.error("Error loading CSV:", error);
+    });
+}

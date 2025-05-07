@@ -1,0 +1,48 @@
+.education-main,
+.education-certifications,
+.education-courses {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #1db954;
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 4rem auto;
+  max-width: 1000px; 
+  box-shadow: 0 0 15px rgba(29, 185, 84, 0.2);
+  position: relative;
+  z-index: 1;
+	width: 90%;
+}
+
+.education-main h2,
+.education-certifications h2,
+.education-courses h2 {
+  border-bottom: 1px solid #1db954;
+  padding-bottom: 0.5rem;
+}
+
+.education-main p,
+.education-certifications p,
+.education-certifications li {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+body {
+  position: relative;
+  background-color: #0c0c0c;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.06) 10%, transparent 11%);
+  background-size: 32px 32px;
+  pointer-events: none;
+  z-index: -1;
+	background-attachment: fixed;
+}
