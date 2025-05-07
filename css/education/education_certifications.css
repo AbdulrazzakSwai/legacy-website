@@ -35,18 +35,47 @@
 }
 
 .certification-card {
+  position: relative;
   background-color: #1a1a1a;
   padding: 1.25rem;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
   width: 100%;
   max-width: 450px;
-  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
   cursor: pointer;
 }
 
 .certification-card:hover {
-  background-color: #222;
+  transform: translateY(-4px) translateX(2px);
+  box-shadow: 0 0 18px #1db954;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(50, 50, 50, 0.9);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+  text-align: center;
+	white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.certification-card:hover .hover-overlay {
+  opacity: 1;
 }
 
 .certification-card h4 {
@@ -67,7 +96,7 @@
   display: block;
   width: 100%;
   max-width: 450px;
-  cursor: pointer;
+	cursor: pointer;
 }
 
 @media (max-width: 600px) {
