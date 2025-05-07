@@ -154,7 +154,10 @@
 
 @media (max-width: 600px) {
   .first-try-badge {
-    font-size: 0.65rem;
+    font-size: 0.67rem;
+    padding: 0.1rem 0.3rem;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(255, 215, 0, 0.4);
   }
 }
 
