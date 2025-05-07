@@ -42,7 +42,7 @@
   width: 100%;
   max-width: 450px;
   transition: background-color 0.3s ease;
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .certification-card:hover {
@@ -67,7 +67,7 @@
   display: block;
   width: 100%;
   max-width: 450px;
-	cursor: pointer;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
@@ -154,7 +154,7 @@
 
 @media (max-width: 600px) {
   .first-try-badge {
-		font-size: 0.7rem;
+    font-size: 0.7rem;
   }
 }
 
