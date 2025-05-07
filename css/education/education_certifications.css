@@ -70,6 +70,26 @@
 	cursor: pointer;
 }
 
+@media (max-width: 600px) {
+  .certifications-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .certification-card-link {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .education-certifications {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
 .certification-card-link:hover .certification-card {
   box-shadow: 0 0 12px #1db954;
   transition: all 0.3s ease;
@@ -134,7 +154,7 @@
 
 @media (max-width: 600px) {
   .first-try-badge {
-    font-size: 0.7rem;
+		font-size: 0.7rem;
   }
 }
 
