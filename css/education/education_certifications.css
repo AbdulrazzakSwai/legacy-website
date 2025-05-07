@@ -132,6 +132,12 @@
   box-shadow: 0 0 6px rgba(255, 215, 0, 0.5);
 }
 
+@media (max-width: 600px) {
+  .first-try-badge {
+		font-size: 0.7rem;
+  }
+}
+
 .progress-label {
   font-size: 0.95rem;
   font-weight: 600;
