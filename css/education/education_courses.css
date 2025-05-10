@@ -28,7 +28,7 @@
 .education-courses a {
   color: #1db954;
   text-decoration: underline;
-	text-underline-offset: 0.25em;
+  text-underline-offset: 0.25em;
 }
 
 .education-courses a:hover {
