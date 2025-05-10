@@ -19,10 +19,8 @@ export function loadCoursesFromCSV() {
         const linkElement = `<a href="${certlink}" target="_blank" rel="noopener noreferrer">View</a>`;
         const certificateText = isTryHackMe ? `${linkElement} *` : linkElement;
 
-        // Create an anchor for the course name
         const courseAnchor = `<a href="${courselink}" target="_blank" rel="noopener noreferrer">${course}</a>`;
 
-        // Insert data into table
         const tr = document.createElement('tr');
         tr.innerHTML = `
           <td>${courseAnchor}</td>
@@ -32,7 +30,6 @@ export function loadCoursesFromCSV() {
         `;
         tbody.appendChild(tr);
 
-        // Create a course card
         const card = document.createElement('div');
         card.className = 'course-card';
         card.innerHTML = `
