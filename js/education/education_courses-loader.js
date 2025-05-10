@@ -16,8 +16,12 @@ export function loadCoursesFromCSV() {
         const [course, courselink, type, provider, certlink] = row.split(',');
 
         const isTryHackMe = provider === 'TryHackMe';
-        const linkElement = `<a href="${certlink}" target="_blank" rel="noopener noreferrer">View</a>`;
-        const certificateText = isTryHackMe ? `${linkElement} *` : linkElement;
+
+        const desktopLink = `<a href="${certlink}" target="_blank" rel="noopener noreferrer">View</a>`;
+        const mobileLink = `<a href="${certlink}" target="_blank" rel="noopener noreferrer">View Certificate</a>`;
+
+        const certificateText = isTryHackMe ? `${desktopLink} *` : desktopLink;
+        const certificateTextCard = isTryHackMe ? `${mobileLink} *` : mobileLink;
 
         const courseAnchor = `<a href="${courselink}" target="_blank" rel="noopener noreferrer">${course}</a>`;
 
@@ -36,7 +40,7 @@ export function loadCoursesFromCSV() {
           <div class="card-header">${courseAnchor}</div>
           <div class="card-content"><strong>Area:</strong> ${type}</div>
           <div class="card-content"><strong>Provider:</strong> ${provider}</div>
-          <div class="card-content">${certificateText}</div>
+          <div class="card-content">${certificateTextCard}</div>
         `;
         container.appendChild(card);
       });
