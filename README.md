@@ -6,7 +6,7 @@ This site is built to showcase my background, education, skills, and projects, a
 
 ## 🌐 Live Site
 
-Visit the live portfolio: [www.abdulrazzakswai.me](www.abdulrazzakswai.me)
+Visit the live portfolio: [https://abdulrazzakswai.me](https://abdulrazzakswai.me)
 
 ## 👨‍💻 About Me
 
