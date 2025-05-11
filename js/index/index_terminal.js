@@ -1,8 +1,9 @@
 const terminalLines = [
   { text: '> cat top_projects.txt', class: 'command' },
-  { text: '- Built two (2) Active Directory home labs with domain controllers & connected machines', class: 'line' },
-  { text: '- Wrote custom Bash script to automate Nmap scanning (targets, ports, enumeration)', class: 'line' },
-  { text: "- Built this very website you're browsing :)", class: 'line' },
+  { text: '- Currently leading the integration of real-world labs and challenges into my university\'s cybersecurity curriculum', class: 'line' },
+  { text: '- Developed a personal website from scratch to showcase my cybersecurity and web development skills. FYI, You’re currently viewing it!', class: 'line' },
+  { text: '- Created and presented free cybersecurity roadmaps in university talks to promote hands-on learning', class: 'line' },
+  { text: "- Discovered and reported two critical IDOR vulnerabilities in the university’s course system, exposing unauthorized access to student data", class: 'line' },
 ];
 
 let terminalStarted = false;
