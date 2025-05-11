@@ -5,10 +5,19 @@ export function setCertificationsAwardedCount() {
 
 export function handleScrollAnimation() {
   document.querySelectorAll('.stat-number').forEach(counter => {
-    if (counter.getAttribute('data-target') === '1') return;
+    const target = counter.getAttribute('data-target');
+
+    if (target === '1' || target === '2') {
+      counter.innerText = target;
+      return;
+    }
 
     const rect = counter.getBoundingClientRect();
-    if (rect.top < window.innerHeight && rect.bottom >= 0 && !counter.classList.contains('started')) {
+    if (
+      rect.top < window.innerHeight &&
+      rect.bottom >= 0 &&
+      !counter.classList.contains('started')
+    ) {
       counter.classList.add('started');
       animateCounter(counter, 1000);
     }
