@@ -7,7 +7,7 @@ export function handleScrollAnimation() {
   document.querySelectorAll('.stat-number').forEach(counter => {
     const target = counter.getAttribute('data-target');
 
-    if (target === '1' || target === '2') {
+    if (['1', '2', '3'].includes(target)) {
       counter.innerText = target;
       return;
     }
