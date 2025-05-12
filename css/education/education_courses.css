@@ -42,6 +42,16 @@
   text-align: center;
 }
 
+.course-number {
+  color: inherit;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.course-anchor {
+  font-size: 1rem;
+}
+
 @media (max-width: 768px) {
   .education-courses table {
     display: none;
@@ -74,7 +84,14 @@
     text-decoration: underline;
     font-size: 0.95rem;
   }
-	
+
+  .course-number {
+    color: #fff;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-right: -5px;
+  }
+
   .education-courses > p {
     margin-bottom: 1rem;
   }
