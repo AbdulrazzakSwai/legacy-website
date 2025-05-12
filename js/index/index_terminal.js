@@ -1,9 +1,9 @@
 const terminalLines = [
   { text: '> cat top_projects.txt', class: 'command' },
-  { text: '- Currently leading the integration of real-world labs and challenges into my university\'s cybersecurity curriculum', class: 'line' },
-  { text: '- Developed a personal website from scratch to showcase my cybersecurity and web development skills. FYI, You’re currently viewing it!', class: 'line' },
-  { text: '- Created and presented free cybersecurity roadmaps in university talks to promote hands-on learning', class: 'line' },
-  { text: "- Discovered and reported two critical IDOR vulnerabilities in the university’s course system, exposing unauthorized access to student data", class: 'line' },
+  { text: '- Currently leading a hands-on cybersecurity curriculum reform at Al Ain University in collaboration with the Head of Cybersecurity and senior professors', class: 'line' },
+  { text: '- Developed a personal website from scratch to showcase my cybersecurity and web development skills (FYI, You’re currently viewing it!)', class: 'line' },
+  { text: '- Developed and presented free cybersecurity roadmaps, derived from TryHackMe, Hack The Box, and TCM Security, in university talks to promote hands-on learning', class: 'line' },
+  { text: '- Discovered and reported a critical IDOR vulnerability in the university’s course system that exposed all students’ data; identified a second one that was patched before I had the chance to report it', class: 'line' },
 ];
 
 let terminalStarted = false;
