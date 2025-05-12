@@ -35,7 +35,8 @@
 
 .education-courses table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   background-color: rgba(20, 20, 20, 0.9);
   border: 1px solid #1db954;
   border-radius: 0 0 10px 10px;
@@ -46,8 +47,8 @@
 .education-courses td {
   padding: 0.75rem;
   text-align: left;
-  border-bottom: 1px solid #333;
   color: #ccc;
+  border-bottom: 1px solid #333;
 }
 
 .education-courses th {
