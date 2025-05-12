@@ -12,6 +12,8 @@ export function loadCoursesFromCSV() {
       tbody.innerHTML = '';
       container.querySelectorAll('.course-card').forEach(card => card.remove());
 
+      let counter = 1;
+
       rows.forEach(row => {
         const [course, courselink, type, provider, certlink] = row.split(',');
 
@@ -23,7 +25,8 @@ export function loadCoursesFromCSV() {
         const certificateText = isTryHackMe ? `${desktopLink} *` : desktopLink;
         const certificateTextCard = isTryHackMe ? `${mobileLink} *` : mobileLink;
 
-        const courseAnchor = `<a href="${courselink}" target="_blank" rel="noopener noreferrer">${course}</a>`;
+        const numberedCourse = `<span class="course-number">${counter}.</span> <a href="${courselink}" target="_blank" rel="noopener noreferrer">${course}</a>`;
+        const courseAnchor = numberedCourse;
 
         const tr = document.createElement('tr');
         tr.innerHTML = `
@@ -43,6 +46,8 @@ export function loadCoursesFromCSV() {
           <div class="card-content">${certificateTextCard}</div>
         `;
         container.appendChild(card);
+
+        counter++;
       });
     })
     .catch(error => {
