@@ -19,7 +19,7 @@ export function handleScrollAnimation() {
       !counter.classList.contains('started')
     ) {
       counter.classList.add('started');
-      animateCounter(counter, 1000);
+      animateCounter(counter, 1200);
     }
   });
 }
