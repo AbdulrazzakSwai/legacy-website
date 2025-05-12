@@ -250,8 +250,17 @@
 	<!-- Online Courses -->
 	<section class="education-courses">
 		<h2>Online Courses</h2>
-		<p>A list of all online courses I took:</p>
 		
+		<label for="course-filter" style="margin-top: 1rem; display: block; color: #ccc;">
+  Filter by Area:
+  <select id="course-filter" style="margin-left: 0.5rem;">
+    <option value="all">All</option>
+    <option value="defensive">Defensive</option>
+	    <option value="offensive">Offensive</option>
+    <option value="general">General</option>
+  </select>
+</label>
+
 		<div id="courses-container">
 			<table>
 				<thead>
