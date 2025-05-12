@@ -51,17 +51,12 @@
 }
 
 #terminal-body {
-  overflow-x: auto;
-  white-space: nowrap;
+  overflow-x: hidden;
+  white-space: normal;
   box-sizing: border-box;
 }
 
-@media (min-width: 769px) {
-  #terminal-body {
-    white-space: normal;
-    overflow-x: hidden;
-  }
-
+@media (min-width: 1px) {
   .terminal-body .line {
     white-space: pre-wrap;
     word-wrap: break-word;
