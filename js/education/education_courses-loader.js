@@ -17,21 +17,20 @@ export function loadCoursesFromCSV() {
       rows.forEach(row => {
         const [course, courselink, type, provider, certlink] = row.split(',');
 
+        const area = type.toLowerCase();
         const isTryHackMe = provider === 'TryHackMe';
 
         const desktopLink = `<a href="${certlink}" target="_blank" rel="noopener noreferrer">View</a>`;
         const mobileLink = `<a href="${certlink}" target="_blank" rel="noopener noreferrer">View Certificate</a>`;
-
         const certificateText = isTryHackMe ? `${desktopLink} *` : desktopLink;
         const certificateTextCard = isTryHackMe ? `${mobileLink} *` : mobileLink;
-
-        const numberedCourse = `<span class="course-number">${counter}.</span> <a href="${courselink}" target="_blank" rel="noopener noreferrer">${course}</a>`;
-        const courseAnchor = numberedCourse;
+        const courseAnchor = `<span class="course-number">${counter}.</span> <a href="${courselink}" target="_blank" rel="noopener noreferrer">${course}</a>`;
 
         const tr = document.createElement('tr');
+        tr.setAttribute('data-area', area);
         tr.innerHTML = `
           <td>${courseAnchor}</td>
-          <td>${type}</td>
+          <td><span class="area-tag area-${area}">${type}</span></td>
           <td>${provider}</td>
           <td>${certificateText}</td>
         `;
@@ -39,9 +38,10 @@ export function loadCoursesFromCSV() {
 
         const card = document.createElement('div');
         card.className = 'course-card';
+        card.setAttribute('data-area', area);
         card.innerHTML = `
           <div class="card-header">${courseAnchor}</div>
-          <div class="card-content"><strong>Area:</strong> ${type}</div>
+          <div class="card-content"><strong>Area:</strong> <span class="area-tag area-${area}">${type}</span></div>
           <div class="card-content"><strong>Provider:</strong> ${provider}</div>
           <div class="card-content">${certificateTextCard}</div>
         `;
@@ -49,9 +49,46 @@ export function loadCoursesFromCSV() {
 
         counter++;
       });
+
+      document.getElementById('course-filter').addEventListener('change', filterCourses);
     })
     .catch(error => {
       document.getElementById('courses-fallback').style.display = 'block';
       console.error("Error loading CSV:", error);
     });
+}
+
+function filterCourses() {
+  const selected = document.getElementById('course-filter').value;
+
+  const tableRows = document.querySelectorAll('#courses-table-body tr');
+  const cards = document.querySelectorAll('.course-card');
+
+  let counter = 1;
+
+  tableRows.forEach(row => {
+    const area = row.getAttribute('data-area');
+    if (selected === 'all' || area === selected) {
+      row.style.display = '';
+      const numberSpan = row.querySelector('.course-number');
+      if (numberSpan) numberSpan.textContent = `${counter}.`;
+      counter++;
+    } else {
+      row.style.display = 'none';
+    }
+  });
+
+  counter = 1;
+
+  cards.forEach(card => {
+    const area = card.getAttribute('data-area');
+    if (selected === 'all' || area === selected) {
+      card.style.display = 'block';
+      const numberSpan = card.querySelector('.course-number');
+      if (numberSpan) numberSpan.textContent = `${counter}.`;
+      counter++;
+    } else {
+      card.style.display = 'none';
+    }
+  });
 }
