@@ -2,7 +2,7 @@ course,courselink,type,provider,certlink
 Security Monitoring & SIEM Fundamentals,https://academy.hackthebox.com/course/preview/security-monitoring--siem-fundamentals,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/211
 Security Information and Event Management (SIEM),https://tryhackme.com/module/security-information-event-management,Defensive,TryHackMe,https://tryhackme.com/module/security-information-event-management
 Incident Handling Process,https://academy.hackthebox.com/course/preview/incident-handling-process,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/db7570b6-bd70-11ef-864f-bea50ffe6cb4
-Security Operations (SOC) 101,https://academy.tcm-sec.com/p/security-operations-soc-101,Defensive,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_SOC-101.webp
+Security Operations (SOC) 101,https://academy.tcm-sec.com/p/security-operations-soc-101,Defensive,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_SOC-101.png
 Cyber Threat Intelligence,https://tryhackme.com/module/cyber-threat-intelligence,Defensive,TryHackMe,https://tryhackme.com/module/cyber-threat-intelligence
 Security Incident Reporting,https://academy.hackthebox.com/course/preview/security-incident-reporting,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/86dd872d-dfa4-11ef-864f-bea50ffe6cb4
 Cyber Defense Frameworks,https://tryhackme.com/module/cyber-defence-frameworks,Defensive,TryHackMe,https://tryhackme.com/module/cyber-defence-frameworks
@@ -12,7 +12,7 @@ Wireshark,https://tryhackme.com/module/wireshark,Defensive,TryHackMe,https://try
 Snort,https://tryhackme.com/module/snort,Defensive,TryHackMe,https://tryhackme.com/module/snort
 Phishing,https://tryhackme.com/module/phishing,Defensive,TryHackMe,https://tryhackme.com/module/phishing
 JavaScript Deobfuscation,https://academy.hackthebox.com/course/preview/javascript-deobfuscation,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/923c424a-afb2-11ef-864f-bea50ffe6cb4
-Practical Ethical Hacking - The Complete Course,https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course,Offensive,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_PEH.webp
+Practical Ethical Hacking - The Complete Course,https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course,Offensive,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_PEH.png
 Penetration Testing Process,https://academy.hackthebox.com/course/preview/penetration-testing-process,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/c180b533-b9cf-11ef-864f-bea50ffe6cb4
 Network Enumeration with Nmap,https://academy.hackthebox.com/course/preview/network-enumeration-with-nmap,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/b16c2601-bb1d-11ef-864f-bea50ffe6cb4
 Information Gathering - Web Edition,https://academy.hackthebox.com/course/preview/information-gathering---web-edition,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/6800d5b8-cf07-11ef-864f-bea50ffe6cb4
@@ -31,10 +31,10 @@ Web Fuzzing,https://academy.hackthebox.com/course/preview/web-fuzzing,Offensive,
 Server-side Attacks,https://academy.hackthebox.com/course/preview/server-side-attacks,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/481ee175-d4f9-11ef-864f-bea50ffe6cb4
 File Transfers,https://academy.hackthebox.com/course/preview/file-transfers,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/95df6e38-9dfe-11ef-864f-bea50ffe6cb4
 Bug Bounty Hunting Process,https://academy.hackthebox.com/course/preview/bug-bounty-hunting-process,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/c9390854-d753-11ef-864f-bea50ffe6cb4
-Practical Help Desk,https://academy.tcm-sec.com/p/practical-help-desk,General,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_Help-Desk.webp
-Soft Skills for the Job Market,https://academy.tcm-sec.com/p/soft-skills-for-the-job-market,General,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_Soft-Skills.webp
+Practical Help Desk,https://academy.tcm-sec.com/p/practical-help-desk,General,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_Help-Desk.png
+Soft Skills for the Job Market,https://academy.tcm-sec.com/p/soft-skills-for-the-job-market,General,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_Soft-Skills.png
 Introduction to Active Directory,https://academy.hackthebox.com/course/preview/introduction-to-active-directory,General,Hack The Box,https://academy.hackthebox.com/achievement/badge/c637ffcc-af44-11ef-864f-bea50ffe6cb4
-Programming 100: Fundamentals,https://academy.tcm-sec.com/p/programming-100-fundamentals,General,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_Programming-100.webp
+Programming 100: Fundamentals,https://academy.tcm-sec.com/p/programming-100-fundamentals,General,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_Programming-100.png
 Introduction to Web Applications,https://academy.hackthebox.com/course/preview/introduction-to-web-applications,General,Hack The Box,https://academy.hackthebox.com/achievement/badge/9bbcd345-a62a-11ef-864f-bea50ffe6cb4
 Web Requests,https://academy.hackthebox.com/course/preview/web-requests,General,Hack The Box,https://academy.hackthebox.com/achievement/badge/3429ead2-a55d-11ef-864f-bea50ffe6cb4
 Learning Process,https://academy.hackthebox.com/course/preview/learning-process,General,Hack The Box,https://academy.hackthebox.com/achievement/badge/d25769ee-1127-11f0-864f-bea50ffe6cb4
