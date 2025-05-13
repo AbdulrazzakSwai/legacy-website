@@ -1,0 +1,75 @@
+.terminal {
+  background: #1e1e1e;
+  color: #c5c5c5;
+  font-family: 'Roboto Mono', monospace;
+  border-radius: 6px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  overflow-x: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.terminal-header {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.terminal-header .circle {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle.red {
+  background: #ff5f56;
+}
+
+.circle.yellow {
+  background: #ffbd2e;
+}
+
+.circle.green {
+  background: #27c93f;
+}
+
+.terminal-body .line {
+  white-space: pre;
+  overflow: hidden;
+  display: block;
+  font-size: 1rem;
+  margin: 0.4rem 0;
+}
+
+.terminal-body .command {
+  color: #00ff00;
+}
+
+#terminal-body {
+  overflow-x: hidden;
+  white-space: normal;
+  box-sizing: border-box;
+}
+
+.terminal-body .line {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.blinking-caret {
+  display: inline-block;
+  width: 1ch;
+  animation: blink 1s step-start infinite;
+  color: #00ff00;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
