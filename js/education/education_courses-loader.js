@@ -14,10 +14,17 @@ export function loadCoursesFromCSV() {
 
       let counter = 1;
 
+      const areaCounts = {
+        defensive: 0,
+        offensive: 0,
+        general: 0
+      };
+
       rows.forEach(row => {
         const [course, courselink, type, provider, certlink] = row.split(',');
-
         const area = type.toLowerCase();
+        if (areaCounts[area] !== undefined) areaCounts[area]++;
+
         const isTryHackMe = provider === 'TryHackMe';
 
         const desktopLink = `<a href="${certlink}" target="_blank" rel="noopener noreferrer">View</a>`;
@@ -50,7 +57,15 @@ export function loadCoursesFromCSV() {
         counter++;
       });
 
-      document.getElementById('course-filter').addEventListener('change', filterCourses);
+      const filter = document.getElementById('course-filter');
+      filter.querySelector('option[value="all"]').textContent = `All (${rows.length})`;
+      filter.querySelector('option[value="defensive"]').textContent = `Defensive (${areaCounts.defensive})`;
+      filter.querySelector('option[value="offensive"]').textContent = `Offensive (${areaCounts.offensive})`;
+      filter.querySelector('option[value="general"]').textContent = `General (${areaCounts.general})`;
+
+      filter.value = 'all';
+
+      filter.addEventListener('change', filterCourses);
     })
     .catch(error => {
       document.getElementById('courses-fallback').style.display = 'block';
