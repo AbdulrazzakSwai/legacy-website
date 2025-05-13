@@ -1,242 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Security Headers -->
-  <meta http-equiv="Permissions-Policy" content="
-    geolocation=(), 
-    microphone=(), 
-    camera=(), 
-    fullscreen=(), 
-    payment=(), 
-    vibrate=(), 
-    autoplay=(self)">
-  <meta http-equiv="X-Content-Type-Options" content="nosniff">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
-  
-  <title>Abdulrazzak's Site - Main</title>
+    <!-- Security Headers -->
+    <meta http-equiv="Permissions-Policy" content="
+      geolocation=(), 
+      microphone=(), 
+      camera=(), 
+      fullscreen=(), 
+      payment=(), 
+      vibrate=(), 
+      autoplay=()" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+    <title>Abdulrazzak's Site - Main</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/all/all_imports.css" />
-  <link rel="stylesheet" href="css/index/index_imports.css" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" />
-  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png" />
-  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
-  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
-  <link rel="manifest" href="assets/favicon/site.webmanifest" />
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#1db954">
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#121212">
-</head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/all/all_imports.css" />
+    <link rel="stylesheet" href="css/index/index_imports.css" />
 
-<body>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png" />
+    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
 
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="navbar-container">
-      <a href="." class="main-button">Main</a>
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#1db954" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#121212" />
+  </head>
 
-      <!-- Hamburger Menu -->
-      <button class="hamburger" id="hamburger">&#9776;</button>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="." class="main-button">Main</a>
 
-      <ul class="nav-menu" id="nav-menu">
-        <li><a href="/education/">Education</a></li>
-        <li><a href="/experiences/">Experiences</a></li>
-        <li><a href="/projects/">Projects</a></li>
-        <li><a href="/blog/">Blog</a></li>
-      </ul>
-    </div>
-  </nav>
+        <!-- Hamburger Menu -->
+        <button class="hamburger" id="hamburger">&#9776;</button>
 
-  <!-- Welcome Section -->
-  <section class="welcome-section">
-    <div class="welcome-background"></div>
-    <div class="particles"></div>
-    <div class="welcome-content">
-      <h1>Hello, I'm Abdulrazzak Swai</h1>
-      <p>Cybersecurity Student, SOC Analyst, Penetration Tester, Web Developer, Continuous Learner</p>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <!-- About Me -->
-  <section id="about-me" class="section about-me-section">
-    <div class="about-me-background"></div>
-    <div class="about-me-content">
-      <div class="about-avatar-container">
-        <img src="assets/avatar.png" alt="Avatar" class="avatar-logo" />
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="/education/">Education</a></li>
+          <li><a href="/experiences/">Experiences</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/blog/">Blog</a></li>
+        </ul>
       </div>
-      <div class="about-info">
-        <h2>About Me</h2>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+      <div class="welcome-background"></div>
+      <div class="particles"></div>
+      <div class="welcome-content">
+        <h1>Hello, I'm Abdulrazzak Swai</h1>
         <p>
-          I am a passionate, detail-oriented cybersecurity student in my final year at Al Ain University, with hands-on experience in SOC analysis, penetration testing, and web development. As a strong communicator and networker, I thrive in collaborative environments and continually seek to expand my knowledge and skills.
+          Cybersecurity Student, SOC Analyst, Penetration Tester, Web Developer,
+          Continuous Learner
         </p>
-        <div class="about-tags">
-          <span>#Cybersecurity</span>
-          <span>#SOC</span>
-          <span>#Pentesting</span>
-          <span>#Web Dev</span>
-          <span>#ContinuousLearning</span>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- About Me -->
+    <section id="about-me" class="section about-me-section">
+      <div class="about-me-background"></div>
+      <div class="about-me-content">
+        <div class="about-avatar-container">
+          <img src="assets/avatar.png" alt="Avatar" class="avatar-logo" />
+        </div>
+        <div class="about-info">
+          <h2>About Me</h2>
+          <p>
+            I am a passionate, detail-oriented cybersecurity student in my final
+            year at Al Ain University, with hands-on experience in SOC analysis,
+            penetration testing, and web development. As a strong communicator
+            and networker, I thrive in collaborative environments and
+            continually seek to expand my knowledge and skills.
+          </p>
+          <div class="about-tags">
+            <span>#Cybersecurity</span>
+            <span>#SOC</span>
+            <span>#Pentesting</span>
+            <span>#Web Dev</span>
+            <span>#ContinuousLearning</span>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <div class="section-divider"></div>
+    <div class="section-divider"></div>
 
-  <!-- Statistics -->
-  <section id="stats" class="section">
-    <h2>Statistics</h2>
-    <div class="statistics-container">
-      <div class="stat-card">
-        <h3>Certifications Awarded</h3>
-        <div class="stat-number" data-target="1">0</div>
-      </div>
-      <div class="stat-card">
-        <h3>Certifications Upcoming</h3>
-        <div class="stat-number" data-target="8">0</div>
-      </div>
-      <div class="stat-card">
-        <h3>Online Courses Taken</h3>
-        <div class="stat-number" data-target="41">0</div>
-      </div>
-      <div class="stat-card">
-        <h3>CTF Challenges Solved</h3>
-        <div class="stat-number with-plus" data-target="100">0</div>
-      </div>
-      <div class="stat-card">
-        <h3>CTF Challenges Excited to Solve</h3>
-        <div class="stat-number with-plus" data-target="1000">0</div>
-      </div>
-      <div class="stat-card">
-        <h3>Web Pages Developed</h3>
-        <div class="stat-number" data-target="4">0</div>
-      </div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <!-- Recent Achievements -->
-  <section id="recent-achievements" class="section">
-    <h2>Top Recent Achievements</h2>
-    <div class="achievements-grid">
-      <div class="achievements-card">
-        <span class="achievements-icon">🌐</span>
-        <div class="achievements-text">
-          <strong>Coffee Menu (Web Page)</strong><br />
-          <small>Project by FreeCodeCamp</small>
+    <!-- Statistics -->
+    <section id="stats" class="section">
+      <h2>Statistics</h2>
+      <div class="statistics-container">
+        <div class="stat-card">
+          <h3>Certifications Awarded</h3>
+          <div class="stat-number" data-target="1">0</div>
         </div>
-        <span class="achievements-date">May 13, 2025</span>
-      </div>
-      <div class="achievements-card">
-        <span class="achievements-icon">🌐</span>
-        <div class="achievements-text">
-          <strong>Cat Photo App (Web Page)</strong><br />
-          <small>Project by FreeCodeCamp</small>
+        <div class="stat-card">
+          <h3>Certifications Upcoming</h3>
+          <div class="stat-number" data-target="8">0</div>
         </div>
-        <span class="achievements-date">May 12, 2025</span>
-      </div>
-      <div class="achievements-card">
-        <span class="achievements-icon">🎓</span>
-        <div class="achievements-text">
-          <strong>Security Monitoring & SIEM Fundamentals</strong><br />
-          <small>Course by Hack The Box</small>
+        <div class="stat-card">
+          <h3>Online Courses Taken</h3>
+          <div class="stat-number" data-target="41">0</div>
         </div>
-        <span class="achievements-date">May 12, 2025</span>
-      </div>
-      <div class="achievements-card">
-        <span class="achievements-icon">🏆</span>
-        <div class="achievements-text">
-          <strong>PSAA Certification</strong><br />
-          <small>By TCM Security</small>
+        <div class="stat-card">
+          <h3>CTF Challenges Solved</h3>
+          <div class="stat-number with-plus" data-target="100">0</div>
         </div>
-        <span class="achievements-date">Apr 25, 2025</span>
+        <div class="stat-card">
+          <h3>CTF Challenges Excited to Solve</h3>
+          <div class="stat-number with-plus" data-target="1000">0</div>
+        </div>
+        <div class="stat-card">
+          <h3>Web Pages Developed</h3>
+          <div class="stat-number" data-target="4">0</div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <div class="section-divider"></div>
+    <div class="section-divider"></div>
 
-  <!-- Upcoming Achievements -->
-  <section id="upcoming-achievements" class="section dossier-section">
-    <h2>Top Upcoming Achievements</h2>
-    <div class="dossier-container">
-      <div class="dossier-card">
-        <h3>🗡️ PJPT</h3>
-        <p>TCM Security <strong>Practical Junior Penetration Tester</strong></p>
-        <span class="status-tag">Exam Soon</span>
+    <!-- Recent Achievements -->
+    <section id="recent-achievements" class="section">
+      <h2>Top Recent Achievements</h2>
+      <div class="achievements-grid">
+        <div class="achievements-card">
+          <span class="achievements-icon">🌐</span>
+          <div class="achievements-text">
+            <strong>Coffee Menu (Web Page)</strong><br />
+            <small>Project by FreeCodeCamp</small>
+          </div>
+          <span class="achievements-date">May 13, 2025</span>
+        </div>
+        <div class="achievements-card">
+          <span class="achievements-icon">🌐</span>
+          <div class="achievements-text">
+            <strong>Cat Photo App (Web Page)</strong><br />
+            <small>Project by FreeCodeCamp</small>
+          </div>
+          <span class="achievements-date">May 12, 2025</span>
+        </div>
+        <div class="achievements-card">
+          <span class="achievements-icon">🎓</span>
+          <div class="achievements-text">
+            <strong>Security Monitoring & SIEM Fundamentals</strong><br />
+            <small>Course by Hack The Box</small>
+          </div>
+          <span class="achievements-date">May 12, 2025</span>
+        </div>
+        <div class="achievements-card">
+          <span class="achievements-icon">🏆</span>
+          <div class="achievements-text">
+            <strong>PSAA Certification</strong><br />
+            <small>By TCM Security</small>
+          </div>
+          <span class="achievements-date">Apr 25, 2025</span>
+        </div>
       </div>
-      <div class="dossier-card">
-        <h3>🛡️ CDSA</h3>
-        <p>Hack The Box <strong>Certified Defensive Security Analyst</strong></p>
-        <span class="status-tag">In Progress</span>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Upcoming Achievements -->
+    <section id="upcoming-achievements" class="section dossier-section">
+      <h2>Top Upcoming Achievements</h2>
+      <div class="dossier-container">
+        <div class="dossier-card">
+          <h3>🗡️ PJPT</h3>
+          <p>TCM Security <strong>Practical Junior Penetration Tester</strong></p>
+          <span class="status-tag">Exam Soon</span>
+        </div>
+        <div class="dossier-card">
+          <h3>🛡️ CDSA</h3>
+          <p>Hack The Box <strong>Certified Defensive Security Analyst</strong></p>
+          <span class="status-tag">In Progress</span>
+        </div>
+        <div class="dossier-card">
+          <h3>⚔️ CPTS</h3>
+          <p>Hack The Box <strong>Certified Penetration Testing Specialist</strong></p>
+          <span class="status-tag">In Progress</span>
+        </div>
+        <div class="dossier-card">
+          <h3>🐞 CBBH</h3>
+          <p>Hack The Box <strong>Certified Bug Bounty Hunter</strong></p>
+          <span class="status-tag">In Progress</span>
+        </div>
       </div>
-      <div class="dossier-card">
-        <h3>⚔️ CPTS</h3>
-        <p>Hack The Box <strong>Certified Penetration Testing Specialist</strong></p>
-        <span class="status-tag">In Progress</span>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Projects -->
+    <section id="projects" class="section terminal-section">
+      <h2>Top Projects</h2>
+      <div class="terminal">
+        <div class="terminal-header">
+          <span class="circle red"></span>
+          <span class="circle yellow"></span>
+          <span class="circle green"></span>
+        </div>
+        <div class="terminal-body" id="terminal-body"></div>
       </div>
-      <div class="dossier-card">
-        <h3>🐞 CBBH</h3>
-        <p>Hack The Box <strong>Certified Bug Bounty Hunter</strong></p>
-        <span class="status-tag">In Progress</span>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Connect -->
+    <section id="connect" class="section connect-section">
+      <h2>Connect With Me</h2>
+      <p>
+        Always open to collaborating, chatting, or learning together. Find me on:
+      </p>
+      <ul class="social-links styled-links">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/abdulrazzakswai/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="icon">🔗</span> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/AbdulrazzakSwai"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="icon">💻</span> GitHub
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-center">
+          &copy; 2025 Abdulrazzak Swai
+        </div>
+        <div class="footer-right">
+          Last updated on May 13, 2025
+        </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <div class="section-divider"></div>
-
-  <!-- Projects -->
-  <section id="projects" class="section terminal-section">
-    <h2>Top Projects</h2>
-    <div class="terminal">
-      <div class="terminal-header">
-        <span class="circle red"></span>
-        <span class="circle yellow"></span>
-        <span class="circle green"></span>
-      </div>
-      <div class="terminal-body" id="terminal-body"></div>
-    </div>
-  </section>
-
-  <div class="section-divider"></div>
-
-  <!-- Connect -->
-  <section id="connect" class="section connect-section">
-    <h2>Connect With Me</h2>
-    <p>Always open to collaborating, chatting, or learning together. Find me on:</p>
-    <ul class="social-links styled-links">
-      <li>
-        <a href="https://www.linkedin.com/in/abdulrazzakswai/" target="_blank" rel="noopener noreferrer">
-          <span class="icon">🔗</span> LinkedIn
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/AbdulrazzakSwai" target="_blank" rel="noopener noreferrer">
-          <span class="icon">💻</span> GitHub
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Abdulrazzak Swai</p>
-  </footer>
-
-  <!-- Scripts -->
-  <script type="module" src="js/all/all_imports.js"></script>
-  <script type="module" src="js/index/index_imports.js"></script>
-
-</body>
+    <!-- Scripts -->
+    <script type="module" src="js/all/all_imports.js"></script>
+    <script type="module" src="js/index/index_imports.js"></script>
+  </body>
 </html>
