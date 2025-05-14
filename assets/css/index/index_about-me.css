@@ -1,8 +1,6 @@
 .about-me-section {
   position: relative;
   width: 100%;
-  min-height: auto;
-  height: auto;
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -25,7 +23,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1;
   max-width: 1200px;
   width: 100%;
   padding: 2rem;
@@ -66,10 +63,14 @@
 }
 
 .about-info p {
-  font-size: 1.1rem;
   line-height: 1.7;
   margin-bottom: 1.5rem;
   font-family: 'Roboto Mono', monospace;
+}
+
+.about-info h3 {
+  margin-bottom: 0.5rem;
+  color: #1db954;
 }
 
 .about-tags {
@@ -87,6 +88,21 @@
   font-size: 0.95rem;
   font-family: 'Roboto Mono', monospace;
   border: 1px solid #1db954;
+  margin-top: 0.5rem;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  align-items: left;
+}
+
+.advantages-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.8rem;
 }
 
 @media (max-width: 768px) {
@@ -107,8 +123,7 @@
   }
 
   .about-info p {
-    font-size: 0.9rem;
-    line-height: 1.5;
+    line-height: 1.55;
   }
 
   .about-tags span {
