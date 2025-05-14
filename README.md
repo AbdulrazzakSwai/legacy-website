@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity Portfolio – Abdulrazzak Swai
 
-Welcome to my personal portfolio website! I’m a passionate **cybersecurity student** and **self-driven learner**, focused on **SOC analysis**, **penetration testing**, and **web development**. I spend most of my time learning, practicing, and refining my skills through hands-on platforms like **Hack The Box**, **TryHackMe**, **TCM Security**, and **freeCodeCamp**, while also building projects to strengthen my **technical skills**.
+Welcome to my personal portfolio website! I’m a passionate **cybersecurity student** and **self-driven learner**, focused on **SOC analysis**, **penetration testing**, and **web development**. I spend most of my time learning, practicing, and refining my skills through hands-on platforms like **Hack The Box**, **TryHackMe**, **TCM Security**, and **FreeCodeCamp**, while also building projects to strengthen my **technical skills**.
 
 This site is designed to showcase my background, experiences, education, and personal projects, while also reflecting my efforts to transform cybersecurity education at my university—from traditional theory to **gamified, practical learning** that prepares students for the real world.
 
