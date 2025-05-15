@@ -31,21 +31,49 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
-  justify-items: center;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.certifications-group.awarded .certifications-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.certification-card-link {
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  cursor: pointer;
 }
 
 .certification-card {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #1a1a1a;
   padding: 1.25rem;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
   width: 100%;
+  height: 100%;
   max-width: 450px;
-  min-height: 220px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
+  box-sizing: border-box;
   cursor: pointer;
+  min-height: 300px;
+}
+
+.certification-card * {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .certification-card:hover {
@@ -76,6 +104,7 @@
   text-align: center;
   padding: 10px;
   background-color: transparent;
+  line-height: 1.5;
 }
 
 .certification-card:hover .hover-overlay {
@@ -93,34 +122,6 @@
   font-size: 1rem;
   line-height: 1.6;
   margin: 0.25rem 0;
-}
-
-.certification-card-link {
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  max-width: 450px;
-  cursor: pointer;
-}
-
-@media (max-width: 600px) {
-  .certifications-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  }
-
-  .certification-card-link {
-    width: 100%;
-    max-width: 350px;
-    margin: 0 auto;
-  }
-
-  .education-certifications {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
 }
 
 .certification-card-link:hover .certification-card {
@@ -172,6 +173,15 @@
   }
 }
 
+@keyframes glitterMove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100px 100px;
+  }
+}
+
 .first-try-badge {
   position: absolute;
   bottom: 10px;
@@ -186,6 +196,30 @@
 }
 
 @media (max-width: 600px) {
+  .certifications-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+  }
+
+  .certification-card-link {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .certification-card {
+    width: 100%;
+    min-height: 300px;
+  }
+
+  .education-certifications {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .first-try-badge {
     font-size: 0.67rem;
     padding: 0.1rem 0.3rem;
@@ -236,6 +270,5 @@
 }
 
 .status-label {
-  font-weight: 600;
   color: #ccc;
 }
