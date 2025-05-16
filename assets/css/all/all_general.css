@@ -30,7 +30,7 @@ h2 {
   font-size: 28px;
   color: #1db954;
   margin-bottom: 30px;
-  text-shadow: 0 0 3px #1db954;
+	text-shadow: 0 0 3px #1db954;
   text-align: left !important;
   width: 100%;
 }
@@ -196,7 +196,7 @@ footer {
 
 .footer-right {
   position: absolute;
-  right: 20px;
+  right: 10px;
   text-align: right;
 }
 
@@ -214,6 +214,6 @@ footer {
     position: relative;
     text-align: center;
     margin-top: 10px;
-    padding-left: 33px;
+    padding-left: 20px;
   }
 }
