@@ -22,6 +22,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../assets/css/all/all_imports.css" />
+    <link rel="stylesheet" href="../assets/css/projects/projects.css" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png" />
@@ -37,7 +38,6 @@
   </head>
 
   <body>
-
     <!-- Navbar -->
     <nav class="navbar">
       <div class="navbar-container">
@@ -58,10 +58,86 @@
     <section class="projects-welcome-section">
       <div class="projects-welcome-background"></div>
       <div class="projects-welcome-content">
-        <h1>Under Development - Projects</h1>
+        <h1>Step Into My Projects Space</h1>
         <p>Discover the hands-on work that fuels my passion for problem-solving!</p>
       </div>
     </section>
+
+    <div class="section-divider"></div>
+
+    <main class="projects-container">
+      <section class="project-category" data-category="cybersec">
+        <h2>Cybersecurity Projects</h2>
+        <div class="project-grid" id="cybersec-projects"></div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section class="project-category" data-category="webdev">
+        <h2>Web Development Projects</h2>
+        <div class="project-grid" id="webdev-projects"></div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section class="project-category" data-category="programming">
+        <h2>Programming Projects</h2>
+        <div class="project-grid" id="programming-projects"></div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section class="project-category" data-category="education">
+        <h2>Education Enhancement Projects</h2>
+        <div class="project-grid" id="education-projects"></div>
+      </section>
+    </main>
+
+    <!-- Modal -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <span id="modal-close">&times;</span>
+
+        <section class="modal-section">
+          <h3 id="modal-title"></h3>
+        </section>
+
+        <section class="modal-section">
+          <h4>💡 Motivation</h4>
+          <p id="modal-motivation"></p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="modal-section">
+          <h4>📋 Details</h4>
+          <p id="modal-details"></p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="modal-section">
+          <h4>🛠️ Skills</h4>
+          <p id="modal-skills"></p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="modal-section">
+          <h4>🔗 Links</h4>
+          <div id="modal-links"></div>
+        </section>
+
+      </div>
+    </div>
+
+    <!-- Split bar -->
+    <div id="split-bar-container">
+      <div class="split-bar left"></div>
+      <div class="split-bar right"></div>
+    </div>
+
+    <div id="modal-overlay" class="overlay hidden"></div>
 
     <!-- Footer -->
     <footer>
@@ -69,11 +145,14 @@
         <div class="footer-center">
           &copy; 2025 Abdulrazzak Swai
         </div>
+        <div class="footer-right">
+          Last updated on May 16, 2025
+        </div>
       </div>
     </footer>
 
     <!-- Scripts -->
     <script type="module" src="../assets/js/all/all_imports.js"></script>
-
+    <script src="../assets/js/projects/projects.js"></script>
   </body>
 </html>
