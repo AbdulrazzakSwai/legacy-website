@@ -3,6 +3,7 @@ const categories = ['cybersec', 'webdev', 'programming', 'education'];
 let isModalActive = false;
 let isAnimating = false;
 let lastFocusedCard = null;
+let releaseFocusTrap = null;
 
 function disableCards() {
   document.querySelectorAll('.project-card').forEach(card => {
@@ -25,7 +26,6 @@ function trapFocus(element) {
 
   function handleTab(e) {
     if (e.key !== 'Tab') return;
-
     if (e.shiftKey) {
       if (document.activeElement === first) {
         e.preventDefault();
@@ -69,6 +69,7 @@ categories.forEach(category => {
         card.addEventListener('click', () => {
           if (isModalActive || isAnimating) return;
           lastFocusedCard = card;
+          history.pushState({ modal: true }, '', '');
           showSplitBarAnimation(card);
         });
         container.appendChild(card);
@@ -83,8 +84,6 @@ const splitBarContainer = document.getElementById('split-bar-container');
 const leftBar = splitBarContainer.querySelector('.split-bar.left');
 const rightBar = splitBarContainer.querySelector('.split-bar.right');
 const modalContent = document.querySelector('.modal-content');
-
-let releaseFocusTrap = null;
 
 function openModal(card) {
   const accentColors = {
@@ -116,39 +115,31 @@ function openModal(card) {
   releaseFocusTrap = trapFocus(modal);
 }
 
-function closeModal() {
+function closeModal(pushBack = true) {
   if (!isModalActive || isAnimating) return;
   isAnimating = true;
-
   splitBarContainer.style.display = 'block';
-
   const slideDistance = window.innerWidth / 2 + 40;
-
   const leftAnim = leftBar.animate([
     { transform: `translateX(-${slideDistance}px)` },
     { transform: 'translateX(0)' }
   ], { duration: 500, easing: 'ease-in-out', fill: 'forwards' });
-
   const rightAnim = rightBar.animate([
     { transform: `translateX(${slideDistance}px)` },
     { transform: 'translateX(0)' }
   ], { duration: 500, easing: 'ease-in-out', fill: 'forwards' });
-
   const fadeOut = modal.animate([
     { opacity: 1, transform: 'translate(-50%, -50%) scale(1)' },
     { opacity: 0, transform: 'translate(-50%, -50%) scale(0.7)' }
   ], { duration: 500, easing: 'ease-in-out', fill: 'forwards' });
-
-  Promise.all([leftAnim.finished, rightAnim.finished, fadeOut.finished]).then(() => finalizeClose());
-
+  Promise.all([leftAnim.finished, rightAnim.finished, fadeOut.finished]).then(() => finalizeClose(pushBack));
   setTimeout(() => {
-    if (isAnimating) finalizeClose();
+    if (isAnimating) finalizeClose(pushBack);
   }, 500);
 }
 
-function finalizeClose() {
+function finalizeClose(pushBack) {
   document.body.style.overflow = '';
-
   overlay.classList.remove('show');
   modal.classList.remove('show');
   splitBarContainer.style.display = 'none';
@@ -169,6 +160,7 @@ function finalizeClose() {
     lastFocusedCard.focus();
     lastFocusedCard = null;
   }
+  if (pushBack) history.pushState({}, '', '');
 }
 
 function showSplitBarAnimation(card) {
@@ -222,8 +214,12 @@ function showSplitBarAnimation(card) {
   }, 500);
 }
 
-modalClose.addEventListener('click', closeModal);
-overlay.addEventListener('click', closeModal);
+modalClose.addEventListener('click', () => closeModal());
+overlay.addEventListener('click', () => closeModal());
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && isModalActive && !isAnimating) closeModal();
+});
+
+window.addEventListener('popstate', () => {
+  if (isModalActive) closeModal(false);
 });
