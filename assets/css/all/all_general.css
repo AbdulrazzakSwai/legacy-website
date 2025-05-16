@@ -200,7 +200,7 @@ footer {
   text-align: right;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .footer-content {
     flex-direction: column;
     text-align: center;
