@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Real-World SOC Analysis & Incident Reporting",
+    "motivation": "To simulate real-world SOC operations and practice structured security incident response.",
+    "details": "Completed a 4-day practical SOC analysis exam simulating real-world incidents. Analyzed artifacts, logs, timelines, and attack evidence. Delivered a 62-page report with structured findings, screenshots, and actionable recommendations. Passed from the first try!",
+    "skills": ["SOC Analysis", "Phishing Analysis", "Malware Analysis", "Network Security", "Endpoint Security", "Log Analysis", "SIEM", "Cyber Threat Intelligence", "Incident Response", "Digital Forensics", "Documentation and Reporting"],
+    "links": [
+      { "url": "https://certified.tcm-sec.com/833472ca-8415-4843-aec8-53c8368d47d3", "title": "My Exam Certificate" }
+    ]
+  },
+  {
+    "title": "Critical Security Vulnerabilities Discovery",
+    "motivation": "To improve the security posture of systems through responsible disclosure.",
+    "details": "Discovered and reported a critical IDOR vulnerability in the university’s course system that exposed all students’ data; identified a second one that was patched before I had the chance to report it.",
+    "skills": ["Bug Bountry Hunting", "Vulnerability Discovery", "Web Security", "Ethical Hacking", "Responsible Disclosure"],
+    "links": []
+  },
+  {
+    "title": "CTF Participation",
+    "motivation": "To practice real-world cybersecurity scenarios and sharpen my skills in collaborative environments.",
+    "details": "Participated in 42CTF (RedTeam Hacker Academy & 42 Abu Dhabi) and Cybersecurity Awareness Day 4.0 CTF (Abu Dhabi University). Focused on exploitation, threat analysis, and security operations in timed, high-pressure settings.",
+    "skills": ["Team Work", "Work Under Time Pressure", "Threat Analysis", "Forensics", "Incident Response"],
+    "links": []
+  },
+  {
+    "title": "Active Directory (AD) Home Labs",
+    "motivation": "To understand enterprise security and test AD exploitation in a safe environment.",
+    "details": "Built and configured two home labs with Domain Controllers and connected VMs to simulate enterprise environments. Focused on AD security and exploitation.",
+    "skills": ["Active Directory", "Lab Setup", "Virtual Machines", "VirtualBox"],
+    "links": [
+      { "url": "https://academy.tcm-sec.com/p/practical-help-desk", "title": "AD Lab Building Course" },
+      { "url": "https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course", "title": "AD Hacking Course" }
+
+    ]
+  },
+  {
+    "title": "Diverse Virtual Machine Lab Environments (20+)",
+    "motivation": "To simulate realistic enterprise environments for penetration testing and defense.",
+    "details": "Built and configured over 20 virtual machines (Linux & Windows) using VirtualBox. Configured NAT networks to simulate internal infrastructure for testing and analysis.",
+    "skills": ["Virtualization", "Lab Design", "OS Configuration", "Security Testing"],
+    "links": []
+  },
+  {
+    "title": "Splunk Challenge – Boss of the SOC (BOTS) v1",
+    "motivation": "To gain hands-on experience in SIEM operations and security investigations.",
+    "details": "Participated in the BOTS v1 challenge by Splunk. Investigated security events in a live Splunk instance, solving log-based analysis tasks and performing incident investigations under time pressure.",
+    "skills": ["SIEM", "Splunk", "Log Analysis", "Work Under Time Pressure"],
+    "links": [
+      { "url": "https://bots.splunk.com/", "title": "Splunk BOTS" }
+    ]
+  },
+  {
+    "title": "Blue Team Challenges",
+    "motivation": "To strengthen detection and investigation skills using real-world datasets.",
+    "details": "Completed dozens of challenges on Hack The Box and TryHackMe, involving packet capture, memory forensics, malware triage, and threat hunting. Used tools like Wireshark, Sysmon, Volatility, KAPE, and Redline, and applied the MITRE ATT&CK framework.",
+    "skills": ["Blue Teaming", "Forensics", "Threat Hunting", "Malware Analysis", "Tool Proficiency"],
+    "links": []
+  },
+  {
+    "title": "Red Team Challenges",
+    "motivation": "To sharpen offensive security skills through real-world simulations.",
+    "details": "Completed numerous challenges covering reconnaissance, exploitation, and post-exploitation. Used tools like Nmap, Metasploit, Burp Suite, Hydra, Mimikatz, Gobuster, and SQLMap for offensive operations.",
+    "skills": ["Red Teaming", "Exploitation", "Post-Exploitation", "Tool Mastery"],
+    "links": []
+  }
+]

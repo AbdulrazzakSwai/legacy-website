@@ -1,0 +1,11 @@
+[
+  {
+    "title": "naio.sh – Nmap All-In-One Scanner",
+    "motivation": "To streamline reconnaissance on VirtualBox-hosted targets during local pentesting labs.",
+    "details": "A Bash script that automates a full Nmap workflow. Identifies live hosts, filters VirtualBox MACs, detects OS and services, and summarizes results per host — saving all output to local files.",
+    "skills": ["Bash Scripting", "Nmap", "Automation", "Network Scanning", "Reconnaissance"],
+    "links": [
+      { "url": "https://github.com/AbdulrazzakSwai/Cybersecurity-Scripts/blob/main/naio.sh", "title": "naio.sh on GitHub" }
+    ]
+  }
+]

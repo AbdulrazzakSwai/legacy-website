@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Leading Cybersecurity Curriculum Reform at Al Ain University",
+    "motivation": "To modernize the university’s cybersecurity curriculum through hands-on, practical learning.",
+    "details": "Advocated for a shift from theoretical teaching to practical, hands-on learning using platforms like TryHackMe and Hack The Box. Proposed integrating real-world labs and gamified challenges into coursework. Collaborating with the head of cybersecurity and senior cybersecurity professors to implement reforms.",
+    "skills": ["Curriculum Development", "Advocacy", "Cybersecurity Education", "Practical Learning"],
+    "links": []
+  },
+  {
+    "title": "Custom Cybersecurity Roadmaps & University Talks",
+    "motivation": "To simplify and promote structured, hands-on cybersecurity learning.",
+    "details": "Created free roadmaps guiding learners through TryHackMe, Hack The Box, and TCM Security platforms. Delivered four talks at the university on adopting practical learning methods.",
+    "skills": ["Public Speaking", "Communication", "Curriculum Design", "Cybersecurity Mentorship", "Community Engagement"],
+    "links": [
+      { "url": "https://www.canva.com/design/DAGhac02qTs/Pd41KDxb4p3KMmdmfaCuKQ/edit", "title": "Roadmap 1" },
+      { "url": "https://www.canva.com/design/DAGdaii1VkM/Sw1oYyZW2FlUV1WIw-v8Aw/edit", "title": "Roadmap 2" }
+    ]
+  }
+]
