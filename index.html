@@ -15,23 +15,23 @@
       autoplay=()" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
 
-    <title>Abdulrazzak's Site - Projects</title>
+    <title>Abdulrazzak's Site - Main</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../assets/css/all/all_imports.css" />
-    <link rel="stylesheet" href="../assets/css/projects/projects.css" />
+    <link rel="stylesheet" href="assets/css/all/all_imports.css" />
+    <link rel="stylesheet" href="assets/css/index/index_imports.css" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon/android-chrome-192x192.png" />
-    <link rel="icon" type="image/png" sizes="512x512" href="../assets/favicon/android-chrome-512x512.png" />
-    <link rel="apple-touch-icon" href="../assets/favicon/apple-touch-icon.png" />
-    <link rel="icon" href="../assets/favicon/favicon.ico" type="image/x-icon" />
-    <link rel="manifest" href="../assets/favicon/site.webmanifest" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png" />
+    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
 
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#1db954" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#121212" />
@@ -41,103 +41,283 @@
     <!-- Navbar -->
     <nav class="navbar">
       <div class="navbar-container">
-        <a href="../" class="main-button">Main</a>
+        <a href="." class="main-button">Main</a>
 
         <!-- Hamburger Menu -->
         <button class="hamburger" id="hamburger">&#9776;</button>
 
         <ul class="nav-menu" id="nav-menu">
-          <li><a href="../education/">Education</a></li>
-          <li><a href="../projects/">Projects</a></li>
-          <li><a href="../blog/">Blog</a></li>
+          <li><a href="/education/">Education</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/blog/">Blog</a></li>
         </ul>
       </div>
     </nav>
 
-    <!-- Projects Welcome -->
-    <section class="projects-welcome-section">
-      <div class="projects-welcome-background"></div>
-      <div class="projects-welcome-content">
-        <h1>Step Into My Projects Space</h1>
-        <p>Discover the hands-on work that fuels my passion for problem-solving!</p>
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+      <div class="welcome-background"></div>
+      <div class="particles"></div>
+      <div class="welcome-content">
+        <h1>Hello, I'm Abdulrazzak Swai</h1>
+        <p>
+          Cybersecurity Student, SOC Analyst, Penetration Tester, Web Developer, Continuous Learner
+        </p>
       </div>
     </section>
 
     <div class="section-divider"></div>
 
-    <main class="projects-container">
-      <section class="project-category" data-category="cybersec">
-        <h2>Cybersecurity Projects</h2>
-        <div class="project-grid" id="cybersec-projects"></div>
-      </section>
-
-      <div class="section-divider"></div>
-
-      <section class="project-category" data-category="webdev">
-        <h2>Web Development Projects</h2>
-        <div class="project-grid" id="webdev-projects"></div>
-      </section>
-
-      <div class="section-divider"></div>
-
-      <section class="project-category" data-category="programming">
-        <h2>Programming Projects</h2>
-        <div class="project-grid" id="programming-projects"></div>
-      </section>
-
-      <div class="section-divider"></div>
-
-      <section class="project-category" data-category="education">
-        <h2>Education Enhancement Projects</h2>
-        <div class="project-grid" id="education-projects"></div>
-      </section>
-    </main>
-
-    <!-- Modal -->
-    <div id="project-modal" class="modal">
-      <div class="modal-content">
-        <span id="modal-close">&times;</span>
-
-        <section class="modal-section">
-          <h3 id="modal-title"></h3>
-        </section>
-
-        <section class="modal-section">
-          <h4>💡 Motivation</h4>
-          <p id="modal-motivation"></p>
-        </section>
-
-        <div class="divider"></div>
-
-        <section class="modal-section">
-          <h4>📋 Details</h4>
-          <p id="modal-details"></p>
-        </section>
-
-        <div class="divider"></div>
-
-        <section class="modal-section">
-          <h4>🛠️ Skills</h4>
-          <p id="modal-skills"></p>
-        </section>
-
-        <div class="divider"></div>
-
-        <section class="modal-section">
-          <h4>🔗 Links</h4>
-          <div id="modal-links"></div>
-        </section>
-
+    <!-- About Me -->
+    <section id="about-me" class="section about-me-section">
+      <div class="about-me-background"></div>
+      <div class="about-me-content">
+        <div class="about-avatar-container">
+          <img src="assets/avatar.png" alt="Avatar" class="avatar-logo" />
+        </div>
+        <div class="about-info">
+          <h2>About Me</h2>
+          <p>
+            I am a passionate, detail-oriented cybersecurity student in my final year at Al Ain University in the UAE, with hands-on experience in SOC analysis, penetration testing, and web development. I am committed to driving the transformation of the university’s cybersecurity curriculum, advocating for practical, hands-on learning. As a strong communicator and networker, I thrive in collaborative environments and continually seek to expand my knowledge and skills.
+          </p>
+          <h3>Distinctive Advantages I Bring:</h3>
+          <ul class="advantages-list">
+            <li>🏅 10 years of Golden Residency awarded for academic excellence (valid until 2033).</li>
+            <li>🌍 20+ years of residency in the UAE, offering deep cultural understanding and local experience.</li>
+            <li>🚗 3 years of driving experience with a valid light vehicle license.</li>
+            <li>📚 Continuous learner: committed to completing a cybersecurity course, solving one CTF challenge, and working on a web project every day.</li>      
+          </ul>
+          <div class="about-tags">
+            <span>#Cybersecurity</span>
+            <span>#SOC</span>
+            <span>#Pentesting</span>
+            <span>#WebDev</span>
+            <span>#ContinuousLearning</span>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Split bar -->
-    <div id="split-bar-container">
-      <div class="split-bar left"></div>
-      <div class="split-bar right"></div>
-    </div>
+    <div class="section-divider"></div>
 
-    <div id="modal-overlay" class="overlay hidden"></div>
+    <!-- Honors & Awards Timeline -->
+    <section id="honors-awards" class="section honors-awards-section">
+      <h2>Honors & Awards</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon" title="Honor List">🏆</div>
+          <div class="timeline-content">
+            <h3>
+              Honor List Recognition <span class="timeline-date">(Third Time)</span>
+            </h3>
+            <div class="honor-meta">
+              <span class="honor-month">April 2025</span>
+            </div>
+            <p>
+              Honored with a place on the University Honor List for outstanding performance in Cybersecurity.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon" title="Honor List">🎖️</div>
+          <div class="timeline-content">
+            <h3>
+              Honor List Recognition <span class="timeline-date">(Second Time)</span>
+            </h3>
+            <div class="honor-meta">
+              <span class="honor-month">October 2024</span>
+            </div>
+            <p>
+              Acknowledged on the University Honor List for exceptional achievement in Cybersecurity.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon" title="Honor List">🥇</div>
+          <div class="timeline-content">
+            <h3>
+              Honor List Recognition <span class="timeline-date">(First Time)</span>
+            </h3>
+            <div class="honor-meta">
+              <span class="honor-month">April 2024</span>
+            </div>
+            <p>
+              Recognized on the University Honor List for superb performance in Cybersecurity.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon" title="Golden Residency">🌟</div>
+          <div class="timeline-content">
+            <h3>
+              Golden Residency <span class="timeline-date">(Valid until 2033)</span>
+            </h3>
+            <div class="honor-meta">
+              <span class="honor-month">February 2023</span>
+            </div>
+            <p>
+              Awarded the prestigious Golden Residency for academic excellence with a high school graduation grade of <strong>98.4%</strong>, providing 10 years of residency and self-sponsorship in the UAE.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Statistics -->
+    <section id="stats" class="section">
+      <h2>Statistics</h2>
+      <div class="statistics-container">
+        <div class="stat-card">
+          <h3>Awarded Certifications</h3>
+          <div class="stat-number" data-target="1">0</div>
+        </div>
+        <div class="stat-card">
+          <h3>Upcoming Certifications</h3>
+          <div class="stat-number" data-target="10">0</div>
+        </div>
+        <div class="stat-card">
+          <h3>Completed Online Courses</h3>
+          <div class="stat-number" data-target="41">0</div>
+        </div>
+        <div class="stat-card">
+          <h3>Solved CTF Challenges</h3>
+          <div class="stat-number" data-target="60">0</div>
+        </div>
+        <div class="stat-card">
+          <h3>Upcoming CTF Challenges</h3>
+          <div class="stat-number" data-target="940">0</div>
+        </div>
+        <div class="stat-card">
+          <h3>Completed Projects</h3>
+          <div class="stat-number" data-target="19">0</div>
+        </div>
+        <div class="stat-card">
+          <h3>Upcoming Projects</h3>
+          <div class="stat-number" data-target="81">0</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Recent Achievements -->
+    <section id="recent-achievements" class="section">
+      <h2>Top Recent Achievements</h2>
+      <div class="achievements-grid">
+        <div class="achievements-card">
+          <span class="achievements-icon">🌐</span>
+          <div class="achievements-text">
+            <strong>Survey Form (Final Project)</strong><br />
+            <small>Project by FreeCodeCamp</small>
+          </div>
+          <span class="achievements-date">May 14, 2025</span>
+        </div>
+        <div class="achievements-card">
+          <span class="achievements-icon">🧩</span>
+          <div class="achievements-text">
+            <strong>Unit42</strong><br />
+            <small>CTF Challenge by Hack The Box</small>
+          </div>
+          <span class="achievements-date">May 12, 2025</span>
+        </div>
+        <div class="achievements-card">
+          <span class="achievements-icon">🎓</span>
+          <div class="achievements-text">
+            <strong>Security Monitoring & SIEM Fundamentals</strong><br />
+            <small>Course by Hack The Box</small>
+          </div>
+          <span class="achievements-date">May 12, 2025</span>
+        </div>
+        <div class="achievements-card">
+          <span class="achievements-icon">🏆</span>
+          <div class="achievements-text">
+            <strong>PSAA Certification</strong><br />
+            <small>By TCM Security</small>
+          </div>
+          <span class="achievements-date">Apr 25, 2025</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Upcoming Achievements -->
+    <section id="upcoming-achievements" class="section dossier-section">
+      <h2>Top Upcoming Achievements</h2>
+      <div class="dossier-container">
+        <div class="dossier-card">
+          <h3>🗡️ PJPT</h3>
+          <p>TCM Security <strong>Practical Junior Penetration Tester</strong></p>
+          <span class="status-tag">Exam Soon</span>
+        </div>
+        <div class="dossier-card">
+          <h3>🛡️ CDSA</h3>
+          <p>Hack The Box <strong>Certified Defensive Security Analyst</strong></p>
+          <span class="status-tag">In Progress</span>
+        </div>
+        <div class="dossier-card">
+          <h3>⚔️ CPTS</h3>
+          <p>Hack The Box <strong>Certified Penetration Testing Specialist</strong></p>
+          <span class="status-tag">In Progress</span>
+        </div>
+        <div class="dossier-card">
+          <h3>🐞 CBBH</h3>
+          <p>Hack The Box <strong>Certified Bug Bounty Hunter</strong></p>
+          <span class="status-tag">In Progress</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Projects -->
+    <section id="projects" class="section terminal-section">
+      <h2>Top Projects</h2>
+      <div class="terminal">
+        <div class="terminal-header">
+          <span class="circle red"></span>
+          <span class="circle yellow"></span>
+          <span class="circle green"></span>
+        </div>
+        <div class="terminal-body" id="terminal-body"></div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Connect -->
+    <section id="connect" class="section connect-section">
+      <h2>Connect With Me</h2>
+      <p>
+        Always open to collaborating, chatting, or learning together. Find me on:
+      </p>
+      <ul class="social-links styled-links">
+        <li>
+          <a href="https://wa.me/971506908136" target="_blank" rel="noopener noreferrer">
+            <span class="icon">📱</span> Whatsapp
+          </a>
+        </li>
+        <li>
+          <a href="mailto:abdulrazzakswai2004@gmail.com">
+            <span class="icon">📬</span> Email
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/abdulrazzakswai/" target="_blank" rel="noopener noreferrer">
+            <span class="icon">🔗</span> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/AbdulrazzakSwai" target="_blank" rel="noopener noreferrer">
+            <span class="icon">💻</span> GitHub
+          </a>
+        </li>
+      </ul>
+    </section>
 
     <!-- Footer -->
     <footer>
@@ -152,7 +332,7 @@
     </footer>
 
     <!-- Scripts -->
-    <script type="module" src="../assets/js/all/all_imports.js"></script>
-    <script src="../assets/js/projects/projects.js"></script>
+    <script type="module" src="assets/js/all/all_imports.js"></script>
+    <script type="module" src="assets/js/index/index_imports.js"></script>
   </body>
 </html>
