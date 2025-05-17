@@ -39,3 +39,9 @@
   font-weight: bold;
   color: #f1f1f1;
 }
+
+@media (min-width: 769px) {
+  .stat-card {
+    margin: 0 10px;
+  }
+}
