@@ -160,7 +160,9 @@ function finalizeClose(pushBack) {
     lastFocusedCard.focus();
     lastFocusedCard = null;
   }
-  if (pushBack) history.pushState({}, '', '');
+  if (pushBack) {
+    history.pushState({}, '', '');
+  }
 }
 
 function showSplitBarAnimation(card) {
@@ -214,8 +216,17 @@ function showSplitBarAnimation(card) {
   }, 500);
 }
 
-modalClose.addEventListener('click', () => closeModal());
-overlay.addEventListener('click', () => closeModal());
+modalClose.addEventListener('click', () => {
+  if (isModalActive && !isAnimating) {
+    history.back();
+  }
+});
+overlay.addEventListener('click', () => {
+  if (isModalActive && !isAnimating) {
+    history.back();
+  }
+});
+
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && isModalActive && !isAnimating) closeModal();
 });
