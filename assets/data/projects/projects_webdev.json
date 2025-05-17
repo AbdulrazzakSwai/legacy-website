@@ -14,7 +14,7 @@
     "details": "Built a simple cat photo application using common HTML tags to add images, text, and buttons, gaining hands-on experience with webpage structure.",
     "skills": ["HTML"],
     "links": [
-      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app", "title": "FreeCodeCamp - Cat Photo App" }
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app", "title": "freeCodeCamp - Cat Photo App" }
     ]
   },
   {
@@ -23,7 +23,7 @@
     "details": "Designed a cafe menu webpage using CSS for styling text, colors, and layout, practicing core CSS concepts for real-world UI presentation.",
     "skills": ["CSS", "HTML"],
     "links": [
-      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-basic-css-by-building-a-cafe-menu", "title": "FreeCodeCamp - Cafe Menu" }
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-basic-css-by-building-a-cafe-menu", "title": "freeCodeCamp - Cafe Menu" }
     ]
   },
   {
@@ -32,7 +32,7 @@
     "details": "Created a visually engaging marker set using various CSS color properties and color-pairing techniques.",
     "skills": ["CSS", "Color Theory"],
     "links": [
-      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-colors-by-building-a-set-of-colored-markers", "title": "FreeCodeCamp - Colored Markers" }
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-colors-by-building-a-set-of-colored-markers", "title": "freeCodeCamp - Colored Markers" }
     ]
   },
   {
@@ -41,7 +41,7 @@
     "details": "Built a full registration form using HTML input fields with validations and applied new CSS styling tools to enhance layout and accessibility.",
     "skills": ["HTML", "CSS", "Forms"],
     "links": [
-      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-forms-by-building-a-registration-form", "title": "FreeCodeCamp - Registration Form" }
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-forms-by-building-a-registration-form", "title": "freeCodeCamp - Registration Form" }
     ]
   },
   {
@@ -50,7 +50,7 @@
     "details": "Developed a user-friendly survey form for collecting feedback and data, implementing input validation and responsive layout techniques.",
     "skills": ["HTML", "CSS", "Forms"],
     "links": [
-      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-survey-form-project", "title": "FreeCodeCamp - Survey Form" }
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-survey-form-project", "title": "freeCodeCamp - Survey Form" }
     ]
   },
   {
@@ -59,7 +59,7 @@
     "details": "Used CSS box model principles to design abstract Rothko-style rectangular paintings, practicing spacing, padding, borders, and layout behaviors.",
     "skills": ["CSS", "Box Model"],
     "links": [
-      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-the-css-box-model-by-building-a-rothko-painting", "title": "FreeCodeCamp - Rothko Painting" }
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-the-css-box-model-by-building-a-rothko-painting", "title": "freeCodeCamp - Rothko Painting" }
     ]
   },
   {
@@ -68,7 +68,7 @@
     "details": "Created a responsive photo gallery using CSS Flexbox to adapt the layout to different screen sizes, practicing modern layout techniques for flexible design.",
     "skills": ["CSS", "Flexbox", "Responsive Design"],
     "links": [
-      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-flexbox-by-building-a-photo-gallery", "title": "FreeCodeCamp - Photo Gallery" }
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-flexbox-by-building-a-photo-gallery", "title": "freeCodeCamp - Photo Gallery" }
     ]
   }
 ]
