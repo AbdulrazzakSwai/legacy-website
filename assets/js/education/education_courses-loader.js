@@ -15,9 +15,9 @@ export function loadCoursesFromCSV() {
       let counter = 1;
 
       const areaCounts = {
-        it: 0,
         defensive: 0,
         offensive: 0,
+        it: 0,
         general: 0
       };
 
@@ -60,9 +60,9 @@ export function loadCoursesFromCSV() {
 
       const filter = document.getElementById('course-filter');
       filter.querySelector('option[value="all"]').textContent = `All (${rows.length})`;
-      filter.querySelector('option[value="it"]').textContent = `IT (${areaCounts.it})`;
       filter.querySelector('option[value="defensive"]').textContent = `Defensive (${areaCounts.defensive})`;
       filter.querySelector('option[value="offensive"]').textContent = `Offensive (${areaCounts.offensive})`;
+      filter.querySelector('option[value="it"]').textContent = `IT (${areaCounts.it})`;
       filter.querySelector('option[value="general"]').textContent = `General (${areaCounts.general})`;
 
       filter.value = 'all';
