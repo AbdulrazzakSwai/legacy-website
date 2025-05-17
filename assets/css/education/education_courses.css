@@ -157,14 +157,18 @@
   font-weight: bold;
 }
 
-.area-offensive {
-  color: #ff4d4d;
+.area-it {
+  color: #ffa64d;
 }
 
 .area-defensive {
   color: #4da6ff;
 }
 
+.area-offensive {
+  color: #ff4d4d;
+}
+
 .area-general {
-  color: #ffa64d;
+  color: #9B59B6;
 }
