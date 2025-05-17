@@ -10,14 +10,14 @@
   box-shadow: 0 0 15px rgba(29, 185, 84, 0.2);
   position: relative;
   z-index: 1;
-	width: 90%;
+  width: 90%;
 }
 
 .education-main h2,
 .education-certifications h2,
 .education-courses h2 {
   border-bottom: 1px solid #1db954;
-  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .education-main p,
