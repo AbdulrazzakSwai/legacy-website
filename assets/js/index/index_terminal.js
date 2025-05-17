@@ -2,7 +2,7 @@ const terminalLines = [
   { text: '> cat top_projects.txt', class: 'command' },
   { text: '- Currently leading a hands-on cybersecurity curriculum reform at Al Ain University in collaboration with the Head of Cybersecurity and senior professors', class: 'line' },
   { text: '- Developed a personal website from scratch to showcase my cybersecurity and web development skills (FYI, You’re currently viewing it!)', class: 'line' },
-  { text: '- Developed and presented free cybersecurity roadmaps, derived from TryHackMe, Hack The Box, and TCM Security, in university talks to promote hands-on learning', class: 'line' },
+  { text: '- Developed and presented free cybersecurity roadmaps, based on leading platforms like TryHackMe, Hack The Box, and TCM Security, during university talks to promote hands-on learning', class: 'line' },
   { text: '- Discovered and reported a critical IDOR vulnerability in the university’s course system that exposed all students’ data; identified a second one that was patched before I had the chance to report it', class: 'line' },
 ];
 
