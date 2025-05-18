@@ -46,7 +46,7 @@
   },
   {
     "title": "User Survey Form",
-    "motivation": "To apply HTML and CSS knowledge in building a complete, real-world survey form.",
+    "motivation": "To apply HTML and CSS knowledge in building a survey form.",
     "details": "Developed a user-friendly survey form for collecting feedback and data, implementing input validation and responsive layout techniques.",
     "skills": ["HTML", "CSS", "Forms"],
     "links": [
@@ -87,6 +87,15 @@
   "skills": ["HTML", "ARIA", "Accessibility", "Web Design"],
   "links": [
     { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-accessibility-by-building-a-quiz", "title": "FreeCodeCamp - Accessible Quiz"}
+  ]
+},
+{
+  "title": "Tribute Page",
+  "motivation": "Part of the final projects to earn the Responsive Web Design Certification on freeCodeCamp.",
+  "details": "Built a tribute page. This project demonstrated proficiency in structuring content with HTML and styling it with CSS. The focus was on accessibility and delivering meaningful information.",
+  "skills": ["HTML", "CSS", "Web Design"],
+  "links": [
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-tribute-page-project", "title": "FreeCodeCamp - Tribute Page"}
   ]
 }
 ]
