@@ -1,9 +1,0 @@
-@echo off
-echo Staging changes...
-git add .
-echo Committing changes...
-git commit -m "update"
-echo Pushing to GitHub...
-git push origin main
-echo Done!
-pause
