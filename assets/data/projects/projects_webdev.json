@@ -79,5 +79,14 @@
   "links": [
     { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-typography-by-building-a-nutrition-label", "title": "FreeCodeCamp - Nutrition Label" }
   ]
-  }
+  },
+  {
+  "title": "Accessible Quiz Page",
+  "motivation": "To ensure web content is usable by everyone, including people with disabilities.",
+  "details": "Created a quiz webpage while applying accessibility best practices. Implemented keyboard navigation, ARIA attributes, and inclusive design strategies to enhance usability.",
+  "skills": ["HTML", "ARIA", "Accessibility", "Web Design"],
+  "links": [
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-accessibility-by-building-a-quiz", "title": "FreeCodeCamp - Accessible Quiz"}
+  ]
+}
 ]
