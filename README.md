@@ -6,7 +6,7 @@ This site showcases my **background**, **education**, and **personal projects**,
 
 ## 🎯 Education Philosophy
 
-I am committed to shifting perspectives on learning by championing practical skills and online certifications as equal or greater in value than traditional academic education. Through my journey, I strive to demonstrate that success is achievable independently of traditional theory, MCQ-based exams, and conventional academic paths.
+I am committed to **shifting perspectives on learning** by championing **practical skills** and **online certifications** as equal **or greater in value** than traditional academic education. Through my journey, I strive to demonstrate that **success is achievable independently of traditional theory, MCQ-based exams, and conventional academic paths**.
 
 ## 🌐 Live Site
 
