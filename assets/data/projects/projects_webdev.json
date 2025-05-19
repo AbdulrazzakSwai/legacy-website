@@ -99,7 +99,7 @@
   ]
 },
 {
-  "title": "CSS Pseudo Selectors – Balance Sheet",
+  "title": "Balance Sheet",
   "motivation": "To explore the power of CSS pseudo selectors and how they can enhance interactivity and styling in web design.",
   "details": "Built a financial balance sheet layout using CSS pseudo selectors. Learned to target and style specific HTML elements based on user interactions like hover states and other triggers. This project emphasized improving UX through dynamic styling techniques.",
   "skills": ["HTML", "CSS3", "CSS pseudo-classes", "user interaction", "responsive design"],
