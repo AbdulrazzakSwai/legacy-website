@@ -97,5 +97,14 @@
   "links": [
     { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-tribute-page-project", "title": "FreeCodeCamp - Tribute Page"}
   ]
+},
+{
+  "title": "CSS Pseudo Selectors – Balance Sheet",
+  "motivation": "To explore the power of CSS pseudo selectors and how they can enhance interactivity and styling in web design.",
+  "details": "Built a financial balance sheet layout using CSS pseudo selectors. Learned to target and style specific HTML elements based on user interactions like hover states and other triggers. This project emphasized improving UX through dynamic styling techniques.",
+  "skills": ["HTML", "CSS3", "CSS pseudo-classes", "user interaction", "responsive design"],
+  "links": [
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet", "title": "FreeCodeCamp - Balance Sheet with Pseudo Selectors" }
+  ]
 }
 ]
