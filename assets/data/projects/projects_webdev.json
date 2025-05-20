@@ -77,7 +77,7 @@
   "details": "Built a nutrition label webpage using CSS typography techniques. Practiced adjusting text styling, spacing, line height, and positioning for clarity and accessibility.",
   "skills": ["CSS", "Typography", "Layout"],
   "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-typography-by-building-a-nutrition-label", "title": "FreeCodeCamp - Nutrition Label" }
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-typography-by-building-a-nutrition-label", "title": "freeCodeCamp - Nutrition Label" }
   ]
   },
   {
@@ -86,7 +86,7 @@
   "details": "Created a quiz webpage while applying accessibility best practices. Implemented keyboard navigation, ARIA attributes, and inclusive design strategies to enhance usability.",
   "skills": ["HTML", "ARIA", "Accessibility", "Web Design"],
   "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-accessibility-by-building-a-quiz", "title": "FreeCodeCamp - Accessible Quiz"}
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-accessibility-by-building-a-quiz", "title": "freeCodeCamp - Accessible Quiz"}
   ]
 },
 {
@@ -95,7 +95,7 @@
   "details": "Built a tribute page. This project demonstrated proficiency in structuring content with HTML and styling it with CSS. The focus was on accessibility and delivering meaningful information.",
   "skills": ["HTML", "CSS", "Web Design"],
   "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-tribute-page-project", "title": "FreeCodeCamp - Tribute Page"}
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-tribute-page-project", "title": "freeCodeCamp - Tribute Page"}
   ]
 },
 {
@@ -104,7 +104,7 @@
   "details": "Built a financial balance sheet layout using CSS pseudo selectors. Learned to target and style specific HTML elements based on user interactions like hover states and other triggers. This project emphasized improving UX through dynamic styling techniques.",
   "skills": ["HTML", "CSS3", "CSS pseudo-classes", "user interaction", "responsive design"],
   "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet", "title": "FreeCodeCamp - Balance Sheet" }
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet", "title": "freeCodeCamp - Balance Sheet" }
   ]
 },
 {
@@ -113,8 +113,17 @@
   "details": "Created a stylized cat painting using intermediate CSS techniques. Focused on absolute positioning to control layout structure, z-index for element stacking, and transform for precise visual adjustments. This helped solidify my understanding of CSS layout behavior.",
   "skills": ["HTML", "CSS", "Absolute Positioning", "Z-Index", "Transform"],
   "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-intermediate-css-by-building-a-cat-painting", "title": "FreeCodeCamp - Cat Painting"
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-intermediate-css-by-building-a-cat-painting", "title": "freeCodeCamp - Cat Painting"
     }
+  ]
+},
+{
+  "title": "Piano",
+  "motivation": "To learn how to make webpages adapt gracefully to different screen sizes using responsive design techniques.",
+  "details": "Built a piano webpage applying responsive web design principles. This included working with CSS media queries and pseudo selectors to ensure the piano looks and functions well on various devices and screen sizes.",
+  "skills": ["HTML", "CSS", "Responsive Design", "Media Queries", "Pseudo Selectors"],
+  "links": [
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-responsive-web-design-by-building-a-piano", "title": "freeCodeCamp - Responsive Web Design Piano" }
   ]
 }
 ]
