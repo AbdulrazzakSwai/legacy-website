@@ -1,13 +1,14 @@
 course,courselink,type,provider,certlink
+Security Operations (SOC) 101,https://academy.tcm-sec.com/p/security-operations-soc-101,Defensive,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_SOC-101.png
 Security Monitoring & SIEM Fundamentals,https://academy.hackthebox.com/course/preview/security-monitoring--siem-fundamentals,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/211
 Security Information and Event Management (SIEM),https://tryhackme.com/module/security-information-event-management,Defensive,TryHackMe,https://tryhackme.com/module/security-information-event-management
 Incident Handling Process,https://academy.hackthebox.com/course/preview/incident-handling-process,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/db7570b6-bd70-11ef-864f-bea50ffe6cb4
-Security Operations (SOC) 101,https://academy.tcm-sec.com/p/security-operations-soc-101,Defensive,TCM Security,https://abdulrazzakswai.me/assets/courses-certificates/TCM-Security_SOC-101.png
 Cyber Threat Intelligence,https://tryhackme.com/module/cyber-threat-intelligence,Defensive,TryHackMe,https://tryhackme.com/module/cyber-threat-intelligence
 Security Incident Reporting,https://academy.hackthebox.com/course/preview/security-incident-reporting,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/86dd872d-dfa4-11ef-864f-bea50ffe6cb4
 Cyber Defense Frameworks,https://tryhackme.com/module/cyber-defence-frameworks,Defensive,TryHackMe,https://tryhackme.com/module/cyber-defence-frameworks
-Network Security and Traffic Analysis,https://tryhackme.com/module/network-security-and-traffic-analysis,Defensive,TryHackMe,https://tryhackme.com/module/network-security-and-traffic-analysis
 Intro to Network Traffic Analysis,https://academy.hackthebox.com/course/preview/intro-to-network-traffic-analysis,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/98df4eb1-ab2c-11ef-864f-bea50ffe6cb4
+Intermediate Network Traffic Analysis,https://academy.hackthebox.com/course/preview/intermediate-network-traffic-analysis,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/badge/1d5579aa-3536-11f0-bcfd-bea50ffe6cb4
+Network Security and Traffic Analysis,https://tryhackme.com/module/network-security-and-traffic-analysis,Defensive,TryHackMe,https://tryhackme.com/module/network-security-and-traffic-analysis
 Wireshark,https://tryhackme.com/module/wireshark,Defensive,TryHackMe,https://tryhackme.com/module/wireshark
 Snort,https://tryhackme.com/module/snort,Defensive,TryHackMe,https://tryhackme.com/module/snort
 Phishing,https://tryhackme.com/module/phishing,Defensive,TryHackMe,https://tryhackme.com/module/phishing
