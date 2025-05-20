@@ -108,7 +108,7 @@
   ]
 },
 {
-  "title": "Intermediate CSS – Cat Painting",
+  "title": "Cat Painting",
   "motivation": "To understand and apply intermediate CSS concepts like positioning, layering, and transformations in web layouts.",
   "details": "Created a stylized cat painting using intermediate CSS techniques. Focused on absolute positioning to control layout structure, z-index for element stacking, and transform for precise visual adjustments. This helped solidify my understanding of CSS layout behavior.",
   "skills": ["HTML", "CSS", "Absolute Positioning", "Z-Index", "Transform"],
