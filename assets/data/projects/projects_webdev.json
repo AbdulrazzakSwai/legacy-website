@@ -118,12 +118,21 @@
   ]
 },
 {
-  "title": "Piano",
+  "title": "Piano Page",
   "motivation": "To learn how to make webpages adapt gracefully to different screen sizes using responsive design techniques.",
   "details": "Built a piano webpage applying responsive web design principles. This included working with CSS media queries and pseudo selectors to ensure the piano looks and functions well on various devices and screen sizes.",
   "skills": ["HTML", "CSS", "Responsive Design", "Media Queries", "Pseudo Selectors"],
   "links": [
     { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-responsive-web-design-by-building-a-piano", "title": "freeCodeCamp - Responsive Web Design Piano" }
+  ]
+},
+{
+  "title": "Technical Documentation Page",
+  "motivation": "To practice structuring and styling technical content on the web.",
+  "details": "Created a multi-section technical documentation page that presents reference material in a clean and accessible layout. Used HTML to organize content and CSS to style it with responsive design principles.",
+  "skills": ["HTML", "CSS", "Responsive Design", "Technical Writing"],
+  "links": [
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-technical-documentation-page-project", "title": "FreeCodeCamp - Technical Documentation Page" }
   ]
 }
 ]
