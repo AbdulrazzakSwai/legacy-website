@@ -104,7 +104,17 @@
   "details": "Built a financial balance sheet layout using CSS pseudo selectors. Learned to target and style specific HTML elements based on user interactions like hover states and other triggers. This project emphasized improving UX through dynamic styling techniques.",
   "skills": ["HTML", "CSS3", "CSS pseudo-classes", "user interaction", "responsive design"],
   "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet", "title": "FreeCodeCamp - Balance Sheet with Pseudo Selectors" }
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet", "title": "FreeCodeCamp - Balance Sheet" }
+  ]
+},
+{
+  "title": "Intermediate CSS – Cat Painting",
+  "motivation": "To understand and apply intermediate CSS concepts like positioning, layering, and transformations in web layouts.",
+  "details": "Created a stylized cat painting using intermediate CSS techniques. Focused on absolute positioning to control layout structure, z-index for element stacking, and transform for precise visual adjustments. This helped solidify my understanding of CSS layout behavior.",
+  "skills": ["HTML", "CSS", "Absolute Positioning", "Z-Index", "Transform"],
+  "links": [
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-intermediate-css-by-building-a-cat-painting", "title": "FreeCodeCamp - Cat Painting"
+    }
   ]
 }
 ]
