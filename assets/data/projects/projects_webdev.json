@@ -134,5 +134,14 @@
   "links": [
     { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-technical-documentation-page-project", "title": "FreeCodeCamp - Technical Documentation Page" }
   ]
+},
+{
+  "title": "City Skyline",
+  "motivation": "To explore how CSS variables can simplify and enhance styling consistency across a web page.",
+  "details": "Built a stylized city skyline using reusable CSS variables for colors and sizing. Learned how to define, apply, and manage custom properties in CSS, improving the scalability and maintainability of web design.",
+  "skills": ["HTML", "CSS", "CSS Variables", "Web Design"],
+  "links": [
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-variables-by-building-a-city-skyline", "title": "FreeCodeCamp - City Skyline" }
+  ]
 }
 ]
