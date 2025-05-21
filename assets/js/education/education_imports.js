@@ -7,7 +7,7 @@ window.onload = () => {
   const progressBars = [
     { progress: 100, barId: 'psaa-progress', percentId: 'psaa-percent' },
     { progress: 100, barId: 'pjpt-progress', percentId: 'pjpt-percent' },
-    { progress: 55, barId: 'cdsa-progress', percentId: 'cdsa-percent' },
+    { progress: 57, barId: 'cdsa-progress', percentId: 'cdsa-percent' },
     { progress: 54, barId: 'cpts-progress', percentId: 'cpts-percent' },
     { progress: 88, barId: 'cbbh-progress', percentId: 'cbbh-percent' },
     { progress: 3, barId: 'airt-progress', percentId: 'airt-percent' },
