@@ -151,5 +151,14 @@
   "links": [
     { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-grid-by-building-a-magazine", "title": "FreeCodeCamp - Magazine Layout"}
   ]
+},
+{
+  "title": "Ferris Wheel",
+  "motivation": "To make web content more engaging by animating elements using CSS.",
+  "details": "Built a Ferris wheel using CSS animations to create movement and interactivity. Learned how to apply transforms, manage animation timing, and enhance visual appeal with dynamic effects.",
+  "skills": ["HTML", "CSS", "CSS Animation", "Web Design"],
+  "links": [
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-animation-by-building-a-ferris-wheel", "title": "FreeCodeCamp - Ferris Wheel Animation"}
+  ]
 }
 ]
