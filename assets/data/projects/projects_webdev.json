@@ -113,8 +113,7 @@
   "details": "Created a stylized cat painting using intermediate CSS techniques. Focused on absolute positioning to control layout structure, z-index for element stacking, and transform for precise visual adjustments. This helped solidify my understanding of CSS layout behavior.",
   "skills": ["HTML", "CSS", "Absolute Positioning", "Z-Index", "Transform"],
   "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-intermediate-css-by-building-a-cat-painting", "title": "freeCodeCamp - Cat Painting"
-    }
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-intermediate-css-by-building-a-cat-painting", "title": "freeCodeCamp - Cat Painting"}
   ]
 },
 {
@@ -142,6 +141,15 @@
   "skills": ["HTML", "CSS", "CSS Variables", "Web Design"],
   "links": [
     { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-variables-by-building-a-city-skyline", "title": "FreeCodeCamp - City Skyline" }
+  ]
+},
+{
+  "title": "Magazine Page",
+  "motivation": "To master control over webpage layout using CSS Grid for responsive and organized design.",
+  "details": "Created a magazine article layout utilizing CSS Grid to control rows and columns effectively. Gained practical experience with grid areas, row and column sizing, and responsive design principles.",
+  "skills": ["HTML", "CSS", "CSS Grid", "Web Design"],
+  "links": [
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-grid-by-building-a-magazine", "title": "FreeCodeCamp - Magazine Layout"}
   ]
 }
 ]
