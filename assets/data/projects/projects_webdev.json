@@ -187,5 +187,14 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-personal-portfolio-webpage-project", "title": "FreeCodeCamp - Personal Portfolio Page" }
     ]
+  },
+  {
+    "title": "Pyramid Generator",
+    "motivation": "To learn the basics of JavaScript and understand core programming concepts in a hands-on way.",
+    "details": "Built a Pyramid Generator from scratch using vanilla JavaScript. Practiced using arrays, string manipulation, functions, loops, and conditionals while also gaining insight into how logic flows in a real-world project.",
+    "skills": ["JavaScript", "Arrays", "Loops", "Conditionals", "Functions"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-introductory-javascript-by-building-a-pyramid-generator", "title": "FreeCodeCamp - Pyramid Generator" }
+    ]
   }
 ]
