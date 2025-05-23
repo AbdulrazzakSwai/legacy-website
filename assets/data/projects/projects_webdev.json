@@ -160,5 +160,14 @@
   "links": [
     { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-animation-by-building-a-ferris-wheel", "title": "FreeCodeCamp - Ferris Wheel Animation"}
   ]
+},
+{
+  "title": "Penguin Design",
+  "motivation": "To explore how CSS transforms can bring static elements to life with scale, rotation, and position adjustments.",
+  "details": "Created a cartoon-style penguin using HTML and CSS. Applied CSS transform properties to rotate, scale, and position elements. Combined styling and layout skills with creative animation techniques.",
+  "skills": ["HTML", "CSS", "CSS Transforms", "Web Design"],
+  "links": [
+    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-transforms-by-building-a-penguin", "title": "FreeCodeCamp - CSS Penguin Transform" }
+  ]
 }
 ]
