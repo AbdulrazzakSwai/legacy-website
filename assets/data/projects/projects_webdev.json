@@ -72,102 +72,120 @@
     ]
   },
   {
-  "title": "Nutrition Label Page",
-  "motivation": "To learn how typography affects readability and visual structure in web design.",
-  "details": "Built a nutrition label webpage using CSS typography techniques. Practiced adjusting text styling, spacing, line height, and positioning for clarity and accessibility.",
-  "skills": ["CSS", "Typography", "Layout"],
-  "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-typography-by-building-a-nutrition-label", "title": "freeCodeCamp - Nutrition Label" }
+    "title": "Nutrition Label Page",
+    "motivation": "To learn how typography affects readability and visual structure in web design.",
+    "details": "Built a nutrition label webpage using CSS typography techniques. Practiced adjusting text styling, spacing, line height, and positioning for clarity and accessibility.",
+    "skills": ["CSS", "Typography", "Layout"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-typography-by-building-a-nutrition-label", "title": "freeCodeCamp - Nutrition Label" }
+    ]
+  },
+  {
+    "title": "Accessible Quiz Page",
+    "motivation": "To ensure web content is usable by everyone, including people with disabilities.",
+    "details": "Created a quiz webpage while applying accessibility best practices. Implemented keyboard navigation, ARIA attributes, and inclusive design strategies to enhance usability.",
+    "skills": ["HTML", "ARIA", "Accessibility", "Web Design"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-accessibility-by-building-a-quiz", "title": "freeCodeCamp - Accessible Quiz"}
   ]
   },
   {
-  "title": "Accessible Quiz Page",
-  "motivation": "To ensure web content is usable by everyone, including people with disabilities.",
-  "details": "Created a quiz webpage while applying accessibility best practices. Implemented keyboard navigation, ARIA attributes, and inclusive design strategies to enhance usability.",
-  "skills": ["HTML", "ARIA", "Accessibility", "Web Design"],
-  "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-accessibility-by-building-a-quiz", "title": "freeCodeCamp - Accessible Quiz"}
-  ]
-},
-{
-  "title": "Tribute Page",
-  "motivation": "Part of the final projects to earn the Responsive Web Design Certification on freeCodeCamp.",
-  "details": "Built a tribute page. This project demonstrated proficiency in structuring content with HTML and styling it with CSS. The focus was on accessibility and delivering meaningful information.",
-  "skills": ["HTML", "CSS", "Web Design"],
-  "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-tribute-page-project", "title": "freeCodeCamp - Tribute Page"}
-  ]
-},
-{
-  "title": "Balance Sheet",
-  "motivation": "To explore the power of CSS pseudo selectors and how they can enhance interactivity and styling in web design.",
-  "details": "Built a financial balance sheet layout using CSS pseudo selectors. Learned to target and style specific HTML elements based on user interactions like hover states and other triggers. This project emphasized improving UX through dynamic styling techniques.",
-  "skills": ["HTML", "CSS3", "CSS pseudo-classes", "user interaction", "responsive design"],
-  "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet", "title": "freeCodeCamp - Balance Sheet" }
-  ]
-},
-{
-  "title": "Cat Painting",
-  "motivation": "To understand and apply intermediate CSS concepts like positioning, layering, and transformations in web layouts.",
-  "details": "Created a stylized cat painting using intermediate CSS techniques. Focused on absolute positioning to control layout structure, z-index for element stacking, and transform for precise visual adjustments. This helped solidify my understanding of CSS layout behavior.",
-  "skills": ["HTML", "CSS", "Absolute Positioning", "Z-Index", "Transform"],
-  "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-intermediate-css-by-building-a-cat-painting", "title": "freeCodeCamp - Cat Painting"}
-  ]
-},
-{
-  "title": "Piano Page",
-  "motivation": "To learn how to make webpages adapt gracefully to different screen sizes using responsive design techniques.",
-  "details": "Built a piano webpage applying responsive web design principles. This included working with CSS media queries and pseudo selectors to ensure the piano looks and functions well on various devices and screen sizes.",
-  "skills": ["HTML", "CSS", "Responsive Design", "Media Queries", "Pseudo Selectors"],
-  "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-responsive-web-design-by-building-a-piano", "title": "freeCodeCamp - Responsive Web Design Piano" }
-  ]
-},
-{
-  "title": "Technical Documentation Page",
-  "motivation": "To practice structuring and styling technical content on the web.",
-  "details": "Created a multi-section technical documentation page that presents reference material in a clean and accessible layout. Used HTML to organize content and CSS to style it with responsive design principles.",
-  "skills": ["HTML", "CSS", "Responsive Design", "Technical Writing"],
-  "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-technical-documentation-page-project", "title": "FreeCodeCamp - Technical Documentation Page" }
-  ]
-},
-{
-  "title": "City Skyline",
-  "motivation": "To explore how CSS variables can simplify and enhance styling consistency across a web page.",
-  "details": "Built a stylized city skyline using reusable CSS variables for colors and sizing. Learned how to define, apply, and manage custom properties in CSS, improving the scalability and maintainability of web design.",
-  "skills": ["HTML", "CSS", "CSS Variables", "Web Design"],
-  "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-variables-by-building-a-city-skyline", "title": "FreeCodeCamp - City Skyline" }
-  ]
-},
-{
-  "title": "Magazine Page",
-  "motivation": "To master control over webpage layout using CSS Grid for responsive and organized design.",
-  "details": "Created a magazine article layout utilizing CSS Grid to control rows and columns effectively. Gained practical experience with grid areas, row and column sizing, and responsive design principles.",
-  "skills": ["HTML", "CSS", "CSS Grid", "Web Design"],
-  "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-grid-by-building-a-magazine", "title": "FreeCodeCamp - Magazine Layout"}
-  ]
-},
-{
-  "title": "Ferris Wheel",
-  "motivation": "To make web content more engaging by animating elements using CSS.",
-  "details": "Built a Ferris wheel using CSS animations to create movement and interactivity. Learned how to apply transforms, manage animation timing, and enhance visual appeal with dynamic effects.",
-  "skills": ["HTML", "CSS", "CSS Animation", "Web Design"],
-  "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-animation-by-building-a-ferris-wheel", "title": "FreeCodeCamp - Ferris Wheel Animation"}
-  ]
-},
-{
-  "title": "Penguin Design",
-  "motivation": "To explore how CSS transforms can bring static elements to life with scale, rotation, and position adjustments.",
-  "details": "Created a cartoon-style penguin using HTML and CSS. Applied CSS transform properties to rotate, scale, and position elements. Combined styling and layout skills with creative animation techniques.",
-  "skills": ["HTML", "CSS", "CSS Transforms", "Web Design"],
-  "links": [
-    { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-transforms-by-building-a-penguin", "title": "FreeCodeCamp - CSS Penguin Transform" }
-  ]
-}
+    "title": "Tribute Page",
+    "motivation": "Part of the final projects to earn the Responsive Web Design Certification on freeCodeCamp.",
+    "details": "Built a tribute page. This project demonstrated proficiency in structuring content with HTML and styling it with CSS. The focus was on accessibility and delivering meaningful information.",
+    "skills": ["HTML", "CSS", "Web Design"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-tribute-page-project", "title": "freeCodeCamp - Tribute Page"}
+    ]
+  },
+  {
+    "title": "Balance Sheet",
+    "motivation": "To explore the power of CSS pseudo selectors and how they can enhance interactivity and styling in web design.",
+    "details": "Built a financial balance sheet layout using CSS pseudo selectors. Learned to target and style specific HTML elements based on user interactions like hover states and other triggers. This project emphasized improving UX through dynamic styling techniques.",
+    "skills": ["HTML", "CSS3", "CSS pseudo-classes", "user interaction", "responsive design"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet", "title": "freeCodeCamp - Balance Sheet" }
+    ]
+  },
+  {
+    "title": "Cat Painting",
+    "motivation": "To understand and apply intermediate CSS concepts like positioning, layering, and transformations in web layouts.",
+    "details": "Created a stylized cat painting using intermediate CSS techniques. Focused on absolute positioning to control layout structure, z-index for element stacking, and transform for precise visual adjustments. This helped solidify my understanding of CSS layout behavior.",
+    "skills": ["HTML", "CSS", "Absolute Positioning", "Z-Index", "Transform"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-intermediate-css-by-building-a-cat-painting", "title": "freeCodeCamp - Cat Painting"}
+    ]
+  },
+  {
+    "title": "Piano Page",
+    "motivation": "To learn how to make webpages adapt gracefully to different screen sizes using responsive design techniques.",
+    "details": "Built a piano webpage applying responsive web design principles. This included working with CSS media queries and pseudo selectors to ensure the piano looks and functions well on various devices and screen sizes.",
+    "skills": ["HTML", "CSS", "Responsive Design", "Media Queries", "Pseudo Selectors"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-responsive-web-design-by-building-a-piano", "title": "freeCodeCamp - Responsive Web Design Piano" }
+    ]
+  },
+  {
+    "title": "Technical Documentation Page",
+    "motivation": "To practice structuring and styling technical content on the web.",
+    "details": "Created a multi-section technical documentation page that presents reference material in a clean and accessible layout. Used HTML to organize content and CSS to style it with responsive design principles.",
+    "skills": ["HTML", "CSS", "Responsive Design", "Technical Writing"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-technical-documentation-page-project", "title": "FreeCodeCamp - Technical Documentation Page" }
+    ]
+  },
+  {
+    "title": "City Skyline",
+    "motivation": "To explore how CSS variables can simplify and enhance styling consistency across a web page.",
+    "details": "Built a stylized city skyline using reusable CSS variables for colors and sizing. Learned how to define, apply, and manage custom properties in CSS, improving the scalability and maintainability of web design.",
+    "skills": ["HTML", "CSS", "CSS Variables", "Web Design"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-variables-by-building-a-city-skyline", "title": "FreeCodeCamp - City Skyline" }
+    ]
+  },
+  {
+    "title": "Magazine Page",
+    "motivation": "To master control over webpage layout using CSS Grid for responsive and organized design.",
+    "details": "Created a magazine article layout utilizing CSS Grid to control rows and columns effectively. Gained practical experience with grid areas, row and column sizing, and responsive design principles.",
+    "skills": ["HTML", "CSS", "CSS Grid", "Web Design"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-grid-by-building-a-magazine", "title": "FreeCodeCamp - Magazine Layout"}
+    ]
+  },
+  {
+    "title": "Product Landing Page",
+    "motivation": "To develop a functional marketing page that presents a product clearly and professionally.",
+    "details": "Built a responsive product landing page that showcases a chosen product. Implemented navigation links, embedded media, and form submission.",
+    "skills": ["HTML", "CSS", "Web Design", "Responsive Design"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-product-landing-page-project", "title": "FreeCodeCamp - Product Landing Page" }
+    ]
+  },
+  {
+    "title": "Ferris Wheel",
+    "motivation": "To make web content more engaging by animating elements using CSS.",
+    "details": "Built a Ferris wheel using CSS animations to create movement and interactivity. Learned how to apply transforms, manage animation timing, and enhance visual appeal with dynamic effects.",
+    "skills": ["HTML", "CSS", "CSS Animation", "Web Design"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-animation-by-building-a-ferris-wheel", "title": "FreeCodeCamp - Ferris Wheel Animation"}
+    ]
+  },
+  {
+    "title": "Penguin Design",
+    "motivation": "To explore how CSS transforms can bring static elements to life with scale, rotation, and position adjustments.",
+    "details": "Created a cartoon-style penguin using HTML and CSS. Applied CSS transform properties to rotate, scale, and position elements. Combined styling and layout skills with creative animation techniques.",
+    "skills": ["HTML", "CSS", "CSS Transforms", "Web Design"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-transforms-by-building-a-penguin", "title": "FreeCodeCamp - CSS Penguin Transform" }
+    ]
+  },
+  {
+    "title": "Portfolio Webpage",
+    "motivation": "To showcase personal projects and skills through a customized and professional online portfolio.",
+    "details": "Created a personal portfolio webpage that highlights skills and projects.",
+    "skills": ["HTML", "CSS", "Web Design", "Portfolio Development"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-personal-portfolio-webpage-project", "title": "FreeCodeCamp - Personal Portfolio Page" }
+    ]
+  }
 ]
