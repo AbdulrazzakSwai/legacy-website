@@ -196,5 +196,14 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-introductory-javascript-by-building-a-pyramid-generator", "title": "FreeCodeCamp - Pyramid Generator" }
     ]
+  },
+  {
+    "title": "Gradebook App",
+    "motivation": "To reinforce JavaScript fundamentals by solving practical problems in a small, structured project.",
+    "details": "Built a Gradebook App that allowed manipulation of grades using core JavaScript concepts like variables, functions, and conditional logic. This project helped deepen understanding of how these basic constructs work together in building real applications.",
+    "skills": ["JavaScript", "Functions", "Variables", "Conditionals", "Problem Solving"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#review-js-fundamentals-by-building-a-gradebook-app", "title": "FreeCodeCamp - Gradebook App"}
+    ]
   }
 ]
