@@ -18,6 +18,7 @@ export function loadCoursesFromCSV() {
         defensive: 0,
         offensive: 0,
         it: 0,
+        soft: 0,
         general: 0
       };
 
@@ -63,6 +64,7 @@ export function loadCoursesFromCSV() {
       filter.querySelector('option[value="defensive"]').textContent = `Defensive (${areaCounts.defensive})`;
       filter.querySelector('option[value="offensive"]').textContent = `Offensive (${areaCounts.offensive})`;
       filter.querySelector('option[value="it"]').textContent = `IT (${areaCounts.it})`;
+      filter.querySelector('option[value="soft"]').textContent = `Soft Skills (${areaCounts.soft})`;
       filter.querySelector('option[value="general"]').textContent = `General (${areaCounts.general})`;
 
       filter.value = 'all';
