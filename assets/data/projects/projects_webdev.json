@@ -205,5 +205,14 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#review-js-fundamentals-by-building-a-gradebook-app", "title": "FreeCodeCamp - Gradebook App"}
     ]
+  },
+  {
+    "title": "Role Playing Game",
+    "motivation": "To gain hands-on experience with JavaScript fundamentals through building a text-based role-playing game.",
+    "details": "Created a simple RPG using JavaScript to practice arrays, objects, strings, loops, and conditional logic. The game involved actions and decision-making to simulate simple game mechanics.",
+    "skills": ["JavaScript", "Arrays", "Objects", "Strings", "Functions", "Loops", "Conditionals"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-javascript-by-building-a-role-playing-game", "title": "FreeCodeCamp - Role Playing Game" }
+    ]
   }
 ]
