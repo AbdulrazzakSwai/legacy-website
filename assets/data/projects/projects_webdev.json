@@ -214,5 +214,14 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-javascript-by-building-a-role-playing-game", "title": "FreeCodeCamp - Role Playing Game" }
     ]
+  },
+  {
+    "title": "Random Background Color Changer (Debugging)",
+    "motivation": "To improve debugging skills by identifying and resolving issues in a small JavaScript project.",
+    "details": "Helped build a random background color changer by identifying and fixing bugs in JavaScript code. Focused on understanding error messages, logic errors, and debugging techniques.",
+    "skills": ["JavaScript", "Debugging", "Functions", "Event Handling", "Randomization", "DOM Manipulation"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-debugging-by-building-a-random-background-color-changer", "title": "FreeCodeCamp - Random Background Color Changer" }
+    ]
   }
 ]
