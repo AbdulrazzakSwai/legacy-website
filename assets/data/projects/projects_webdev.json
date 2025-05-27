@@ -223,5 +223,14 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-debugging-by-building-a-random-background-color-changer", "title": "FreeCodeCamp - Random Background Color Changer" }
     ]
+  },
+  {
+    "title": "Calorie Counter",
+    "motivation": "To learn how to validate user input and dynamically update a web interface using JavaScript.",
+    "details": "Built a calorie counter app that accepts user input, validates it with regular expressions, performs real-time calculations, and displays the results dynamically. Focused on form validation, input handling, and UI interaction.",
+    "skills": ["JavaScript", "Form Validation", "Regular Expressions", "Template Literals", "Event Handling", "DOM Manipulation"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-form-validation-by-building-a-calorie-counter", "title": "FreeCodeCamp - Calorie Counter"}
+    ]
   }
 ]
