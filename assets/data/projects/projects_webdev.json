@@ -234,7 +234,7 @@
     ]
   },
   {
-    "title": "Rock, Paper, Scissors Game",
+    "title": "Rock, Paper, Scissors Game (Supporting)",
     "motivation": "To review DOM manipulation and basic programming logic by building an interactive game.",
     "details": "Helped build a Rock, Paper, Scissors game where users can select an option and see the result displayed dynamically. Reinforced understanding of conditionals, functions, and DOM interactions using getElementById.",
     "skills": ["JavaScript", "DOM Manipulation", "Conditionals", "Functions", "Event Handling", "getElementById"],
