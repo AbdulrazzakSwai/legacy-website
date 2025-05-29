@@ -241,5 +241,12 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#review-dom-manipulation-by-building-a-rock-paper-scissors-game", "title": "FreeCodeCamp - Rock, Paper, Scissors Game" }
     ]
+  },
+  {
+    "title": "Audio Player",
+    "motivation": "To learn essential string and array methods while building a functional audio player.",
+    "details": "Created a basic MP3 audio player using HTML, CSS, and JavaScript. Implemented audio playback controls including play, pause, next, previous, and shuffle. Used methods like find(), forEach(), map(), and join() to manage and display playlist data. Dynamically updated the UI based on the current track.",
+    "skills": ["JavaScript", "HTML", "CSS", "Audio Playback", "DOM Manipulation", "String Methods"],
+    "links": []
   }
 ]
