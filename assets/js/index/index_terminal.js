@@ -1,8 +1,8 @@
 const terminalLines = [
   { text: '> cat top_projects.txt', class: 'command' },
   { text: '- Discovered and reported a critical IDOR vulnerability in the university’s course system; identified a second one that was patched before I had the chance to report it', class: 'line' },
-  { text: '- Built and configured 20+ virtual machines, including full Active Directory labs, to simulate enterprise environments for cybersecurity testing', class: 'line' },
-  { text: '- Led a hands-on cybersecurity curriculum reform at Al Ain University in collaboration with the Head of Cybersecurity and senior professors', class: 'line' },
+  { text: '- Built and configured 20+ virtual machines and 2 Active Directory labs to simulate enterprise environments for cybersecurity testing', class: 'line' },
+  { text: '- Led a hands-on cybersecurity curriculum reform at Al Ain University, collaborating with the Head of Cybersecurity and senior professors to transform the entire program', class: 'line' },
   { text: '- Developed structured cybersecurity roadmaps and delivered multiple talks at the university to guide students through practical, platform-based learning paths', class: 'line' },
 ];
 
