@@ -248,5 +248,14 @@
     "details": "Created a basic MP3 audio player using HTML, CSS, and JavaScript. Implemented audio playback controls including play, pause, next, previous, and shuffle. Used methods like find(), forEach(), map(), and join() to manage and display playlist data. Dynamically updated the UI based on the current track.",
     "skills": ["JavaScript", "HTML", "CSS", "Audio Playback", "DOM Manipulation", "String Methods"],
     "links": []
+  },
+  {
+    "title": "Date Formatter",
+    "motivation": "To gain hands-on experience with the JavaScript Date object and understand how to format dates accurately.",
+    "details": "Built a date formatting tool using JavaScript. Practiced using Date object methods such as getDate(), getMonth(), and getFullYear() to extract and format date components.",
+    "skills": ["JavaScript", "Date Object", "Date Formatting"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-the-date-object-by-building-a-date-formatter", "title": "FreeCodeCamp - Date Formatter"}
+    ]
   }
 ]
