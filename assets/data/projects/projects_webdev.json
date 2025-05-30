@@ -257,5 +257,14 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-the-date-object-by-building-a-date-formatter", "title": "FreeCodeCamp - Date Formatter"}
     ]
+  },
+  {
+    "title": "Football Team Cards",
+    "motivation": "To practice processing and displaying structured datasets in a web interface using modern JavaScript techniques.",
+    "details": "Built a sports team card viewer that displays team data using DOM manipulation and object destructuring. Practiced event handling and dynamic filtering of datasets. Reinforced concepts like default parameters, Object.freeze(), switch statements, and map() method.",
+    "skills": ["JavaScript", "DOM Manipulation", "Object Destructuring", "Event Handling", "Data Filtering", "switch", "map"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8#learn-modern-javascript-methods-by-building-football-team-cards", "title": "FreeCodeCamp - Football Team Cards" }
+    ]
   }
 ]
