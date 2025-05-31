@@ -266,5 +266,14 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8#learn-modern-javascript-methods-by-building-football-team-cards", "title": "FreeCodeCamp - Football Team Cards" }
     ]
+  },
+  {
+    "title": "TODO App",
+    "motivation": "To build a persistent task manager and learn how to store and retrieve data using the browser's localStorage.",
+    "details": "Developed a TODO list application that saves tasks using localStorage, enabling data persistence across sessions. Practiced handling form inputs and managing UI interactivity through event listeners and conditional UI toggling.",
+    "skills": ["JavaScript", "LocalStorage", "Event Listeners", "UI Interactivity"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-localstorage-by-building-a-todo-app", "title": "FreeCodeCamp - TODO App with LocalStorage"}
+    ]
   }
 ]
