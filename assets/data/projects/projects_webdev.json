@@ -275,5 +275,14 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-localstorage-by-building-a-todo-app", "title": "FreeCodeCamp - TODO App with LocalStorage"}
     ]
+  },
+  {
+    "title": "Decimal to Binary Converter",
+    "motivation": "To understand and apply the concept of recursion through a practical and visual programming challenge.",
+    "details": "Built a JavaScript tool to convert decimal numbers to binary using recursion. Explored how recursive functions work, visualized the call stack, and implemented animations to illustrate the recursive process step-by-step.",
+    "skills": ["JavaScript", "Recursion", "Call Stack", "DOM Manipulation"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-recursion-by-building-a-decimal-to-binary-converter", "title": "FreeCodeCamp - Decimal to Binary Converter" }
+    ]
   }
 ]
