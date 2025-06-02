@@ -284,5 +284,14 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-recursion-by-building-a-decimal-to-binary-converter", "title": "FreeCodeCamp - Decimal to Binary Converter" }
     ]
+  },
+  {
+    "title": "Spam Filter",
+    "motivation": "To master advanced regular expressions techniques for pattern matching, searching, and filtering text.",
+    "details": "Developed a JavaScript spam filter using regular expressions. Learned and applied various regex techniques to identify and filter unwanted text patterns.",
+    "skills": ["JavaScript", "Regular Expressions", "Capture Groups", "Text Filtering"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-regular-expressions-by-building-a-spam-filter", "title": "FreeCodeCamp - Spam Filter"}
+    ]
   }
 ]
