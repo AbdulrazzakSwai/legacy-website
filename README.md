@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity Portfolio – Abdulrazzak Swai
+# 🛡️ Pesonal Portfolio – Abdulrazzak Swai
 
 Welcome to my **personal portfolio website!** I’m a detail-oriented **cybersecurity student** and **self-driven learner**, focused on **SOC analysis**, **penetration testing**, and **web development**. I spend most of my time **learning**, **practicing**, and refining my skills through **hands-on platforms** like **Hack The Box**, **TryHackMe**, **TCM Security**, and **freeCodeCamp**, while also building **projects** to strengthen my **technical skills**.
 
