@@ -293,5 +293,14 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-regular-expressions-by-building-a-spam-filter", "title": "FreeCodeCamp - Spam Filter"}
     ]
+  },
+  {
+    "title": "Number Sorter",
+    "motivation": "To develop algorithmic thinking by implementing and visualizing sorting algorithms using JavaScript.",
+    "details": "Built an interactive number sorter that demonstrates bubble sort, selection sort, and insertion sort. Visualized the sorting process in the browser and gained hands-on experience with comparisons and array manipulation.",
+    "skills": ["JavaScript", "Bubble Sort", "Selection Sort", "Insertion Sort", "DOM Manipulation"],
+    "links": [
+      { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-algorithmic-thinking-by-building-a-number-sorter", "title": "FreeCodeCamp - Number Sorter" }
+    ]
   }
 ]
