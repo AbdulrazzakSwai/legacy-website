@@ -302,5 +302,17 @@
     "links": [
       { "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-algorithmic-thinking-by-building-a-number-sorter", "title": "FreeCodeCamp - Number Sorter" }
     ]
+  },
+  {
+    "title": "Statistics Calculator",
+    "motivation": "To master advanced array methods and build confidence in statistical logic implementation using JavaScript.",
+    "details": "Developed a statistics calculator that accepts user input and computes mean, median, mode, variance, and standard deviation. Used array methods like map(), reduce(), and filter() with method chaining. Practiced DOM manipulation and dynamic UI updates.",
+    "skills": ["JavaScript", "Method Chaining", "DOM Manipulation", "Statistical Calculations", "User Input Handling"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-advanced-array-methods-by-building-a-statistics-calculator",
+        "title": "FreeCodeCamp - Statistics Calculator"
+      }
+    ]
   }
 ]
