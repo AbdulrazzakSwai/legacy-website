@@ -314,5 +314,17 @@
         "title": "FreeCodeCamp - Statistics Calculator"
       }
     ]
+  },
+  {
+    "title": "Spreadsheet",
+    "motivation": "To understand functional programming principles by applying them to a real-world problem: building a spreadsheet.",
+    "details": "Built a mini spreadsheet application using JavaScript. Practiced core functional programming techniques such as breaking problems into small functions, composing them, and maintaining immutability. Implemented expression parsing, evaluated formulas with references, and dynamically updated UI based on user input.",
+    "skills": ["JavaScript", "Functional Programming", "Array Methods", "Expression Evaluation", "DOM Manipulation"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-functional-programming-by-building-a-spreadsheet",
+        "title": "freeCodeCamp - Spreadsheet"
+      }
+    ]
   }
 ]
