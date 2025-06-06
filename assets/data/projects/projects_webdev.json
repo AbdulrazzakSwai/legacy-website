@@ -326,5 +326,17 @@
         "title": "freeCodeCamp - Spreadsheet"
       }
     ]
+  },
+  {
+    "title": "Shopping Cart",
+    "motivation": "To learn Object Oriented Programming fundamentals by building a practical JavaScript project that involves classes, objects, and methods.",
+    "details": "Built a shopping cart application using JavaScript OOP concepts. Created classes and instances to manage products and cart items. Implemented methods to add, remove, and update items in the cart.",
+    "skills": ["JavaScript", "Object Oriented Programming", "Classes", "Methods", "this Keyword"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-oop-by-building-a-shopping-cart",
+        "title": "freeCodeCamp - Shopping Cart"
+      }
+    ]
   }
 ]
