@@ -35,11 +35,12 @@
   border: 1px solid #1db954;
   border-radius: 0 0 10px 10px;
   margin-top: 1rem;
+  font-size: 0.97rem;
 }
 
 .education-courses th,
 .education-courses td {
-  padding: 0.75rem;
+  padding: 1rem 0.75rem;
   text-align: left;
   color: #ccc;
   border-bottom: 1px solid #333;
@@ -117,7 +118,7 @@
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .education-courses table {
     display: none;
   }
