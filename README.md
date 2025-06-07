@@ -15,4 +15,4 @@ Visit my website: [https://www.abdulrazzakswai.me](https://www.abdulrazzakswai.m
 ## 🚫 Site License
 
 The content, layout, and design of this website are **© 2025 Abdulrazzak Swai. All rights reserved.**  
-You may not copy, reuse, or redistribute the site’s HTML, CSS, JS, CSV, or visual assets without written permission.
+You may not copy, reuse, or redistribute the site’s HTML, CSS, JS, data, or visual assets without written permission.
