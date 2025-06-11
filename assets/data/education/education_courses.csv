@@ -4,16 +4,16 @@ Security Monitoring & SIEM Fundamentals,https://academy.hackthebox.com/course/pr
 Security Information and Event Management (SIEM),https://tryhackme.com/module/security-information-event-management,Defensive,TryHackMe,https://tryhackme.com/module/security-information-event-management
 Detecting Windows Attacks with Splunk,https://academy.hackthebox.com/course/preview/detecting-windows-attacks-with-splunk,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/233
 Understanding Log Sources & Investigating with Splunk,https://academy.hackthebox.com/course/preview/understanding-log-sources--investigating-with-splunk,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/218
+Introduction to Threat Hunting & Hunting With Elastic,https://academy.hackthebox.com/course/preview/introduction-to-threat-hunting--hunting-with-elastic,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/214
 Introduction to Digital Forensics,https://academy.hackthebox.com/course/preview/introduction-to-digital-forensics,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/237
 Incident Handling Process,https://academy.hackthebox.com/course/preview/incident-handling-process,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/148
 Introduction to Malware Analysis,https://academy.hackthebox.com/course/preview/introduction-to-malware-analysis,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/227
 Cyber Threat Intelligence,https://tryhackme.com/module/cyber-threat-intelligence,Defensive,TryHackMe,https://tryhackme.com/module/cyber-threat-intelligence
 YARA & Sigma for SOC Analysts,https://academy.hackthebox.com/course/preview/yara--sigma-for-soc-analysts,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/234
-Introduction to Threat Hunting & Hunting With Elastic,https://academy.hackthebox.com/course/preview/introduction-to-threat-hunting--hunting-with-elastic,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/214
+Cyber Defense Frameworks,https://tryhackme.com/module/cyber-defence-frameworks,Defensive,TryHackMe,https://tryhackme.com/module/cyber-defence-frameworks
 Windows Attacks & Defense,https://academy.hackthebox.com/course/preview/windows-attacks--defense,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/176
 Windows Event Logs & Finding Evil,https://academy.hackthebox.com/course/preview/windows-event-logs--finding-evil,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/216
 Security Incident Reporting,https://academy.hackthebox.com/course/preview/security-incident-reporting,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/238
-Cyber Defense Frameworks,https://tryhackme.com/module/cyber-defence-frameworks,Defensive,TryHackMe,https://tryhackme.com/module/cyber-defence-frameworks
 Intro to Network Traffic Analysis,https://academy.hackthebox.com/course/preview/intro-to-network-traffic-analysis,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/81
 Intermediate Network Traffic Analysis,https://academy.hackthebox.com/course/preview/intermediate-network-traffic-analysis,Defensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/229
 Network Security and Traffic Analysis,https://tryhackme.com/module/network-security-and-traffic-analysis,Defensive,TryHackMe,https://tryhackme.com/module/network-security-and-traffic-analysis
@@ -32,6 +32,7 @@ SQL Injection Fundamentals,https://academy.hackthebox.com/course/preview/sql-inj
 SQLMap Essentials,https://academy.hackthebox.com/course/preview/sqlmap-essentials,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/58
 Cross-Site Scripting (XSS),https://academy.hackthebox.com/course/preview/cross-site-scripting-xss,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/103
 Using Web Proxies,https://academy.hackthebox.com/course/preview/using-web-proxies,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/110
+Hacking Wordpress,https://academy.hackthebox.com/course/preview/hacking-wordpress,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/17
 Command Injections,https://academy.hackthebox.com/course/preview/command-injections,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/109
 File Upload Attacks,https://academy.hackthebox.com/course/preview/file-upload-attacks,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/136
 Broken Authentication,https://academy.hackthebox.com/course/preview/broken-authentication,Offensive,Hack The Box,https://academy.hackthebox.com/achievement/1545227/80
