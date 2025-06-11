@@ -338,5 +338,17 @@
         "title": "freeCodeCamp - Shopping Cart"
       }
     ]
+  },
+  {
+    "title": "Platformer Game",
+    "motivation": "To deepen understanding of Object Oriented Programming by developing a platformer game with reusable and encapsulated components.",
+    "details": "Created a platformer-style game using JavaScript classes and inheritance. Defined player and object behaviors with encapsulated methods and organized code using OOP best practices.",
+    "skills": ["JavaScript", "Object Oriented Programming", "Classes", "Inheritance", "Encapsulation", "Game Design"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-intermediate-oop-by-building-a-platformer-game",
+        "title": "freeCodeCamp - Platformer Game"
+      }
+    ]
   }
 ]
