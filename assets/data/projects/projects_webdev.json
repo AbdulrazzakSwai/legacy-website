@@ -350,5 +350,17 @@
         "title": "freeCodeCamp - Platformer Game"
       }
     ]
+  },
+  {
+    "title": "Dice Game",
+    "motivation": "To practice algorithmic thinking by breaking down game logic into clear, step-by-step instructions for managing game state and scoring.",
+    "details": "Built a dice game implementing game logic for rolling dice, keeping track of scores, and applying rules for winning combinations. Learned to handle events, manipulate arrays, use conditional statements, and dynamically update the UI based on the current game state.",
+    "skills": ["JavaScript", "Algorithmic Thinking", "Event Handling", "Array Manipulation", "Conditional Logic", "DOM Manipulation", "Game State Management"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#review-algorithmic-thinking-by-building-a-dice-game",
+        "title": "freeCodeCamp - Dice Game"
+      }
+    ]
   }
 ]
