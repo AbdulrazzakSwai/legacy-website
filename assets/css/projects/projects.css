@@ -316,3 +316,28 @@ h4 {
     margin: 2rem 0;
   }
 }
+
+/* ...existing code... */
+.load-more-projects-btn {
+  background: #222;
+  color: #1db954;
+  border: 1px solid #1db954;
+  border-radius: 5px;
+  padding: 0.6em 1.5em;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 500;
+  margin: 24px auto 0 auto;
+  display: block;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.load-more-projects-btn:hover,
+.load-more-projects-btn:focus {
+  background: #1db954;
+  color: #fff;
+  border-color: #1db954;
+  outline: none;
+}
+/* ...existing code... */

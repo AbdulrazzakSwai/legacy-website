@@ -5,6 +5,30 @@ let isAnimating = false;
 let lastFocusedCard = null;
 let releaseFocusTrap = null;
 
+const projectsData = {};
+const projectsPage = {};
+const projectsTotal = {};
+const PROJECTS_PER_PAGE = 12;
+const allDataLoaded = {};
+
+function fetchTotalCount(category) {
+  if (typeof projectsTotal[category] === 'number') return Promise.resolve(projectsTotal[category]);
+  return fetch(`../assets/data/projects/projects_${category}.json`)
+    .then(res => res.json())
+    .then(result => {
+      let allProjects;
+      if (Array.isArray(result)) {
+        allProjects = result;
+      } else if (result.projects) {
+        allProjects = result.projects;
+      } else {
+        allProjects = [];
+      }
+      projectsTotal[category] = allProjects.length;
+      return allProjects.length;
+    });
+}
+
 function disableCards() {
   document.querySelectorAll('.project-card').forEach(card => {
     card.style.pointerEvents = 'none';
@@ -43,37 +67,137 @@ function trapFocus(element) {
   return () => element.removeEventListener('keydown', handleTab);
 }
 
+function updateCategoryCount(category) {
+  const header = document.getElementById(`${category}-projects-header`);
+  if (header) {
+    const total = projectsTotal[category];
+    header.textContent = header.textContent.replace(/\s*\(\d+\)$/, '');
+    if (typeof total === 'number') {
+      header.textContent += ` (${total})`;
+    }
+  }
+}
+
+function renderProjects(category) {
+  const container = document.getElementById(`${category}-projects`);
+  if (!container) return;
+
+  const projects = projectsData[category] || [];
+  updateCategoryCount(category);
+
+  const page = projectsPage[category] || 1;
+  const start = 0;
+  const end = page * PROJECTS_PER_PAGE;
+  const visibleProjects = projects.slice(start, end);
+
+  const existingBtn = container.querySelector('.load-more-projects-btn');
+  if (existingBtn) existingBtn.remove();
+
+  container.querySelectorAll('.project-card').forEach(card => card.remove());
+
+  visibleProjects.forEach(project => {
+    const card = document.createElement('div');
+    card.className = 'project-card';
+    card.textContent = project.title || 'Untitled Project';
+    card.dataset.title = project.title || 'Untitled Project';
+    card.dataset.motivation = project.motivation || '';
+    card.dataset.details = project.details || '';
+    card.dataset.skills = Array.isArray(project.skills) ? project.skills.join(', ') : '';
+    if (Array.isArray(project.links) && project.links.length) {
+      card.dataset.links = project.links.map(l => l.url || '').join('|');
+      card.dataset.linktitle = project.links.map(l => l.title || '').join('|');
+    } else {
+      card.dataset.links = '';
+      card.dataset.linktitle = '';
+    }
+    card.dataset.category = category;
+
+    card.addEventListener('click', () => {
+      if (isModalActive || isAnimating) return;
+      lastFocusedCard = card;
+      history.pushState({ modal: true }, '', '');
+      showSplitBarAnimation(card);
+    });
+
+    container.appendChild(card);
+  });
+
+  const moreToShow = (projects.length > end) || !allDataLoaded[category];
+  if (moreToShow) {
+    const loadMoreBtn = document.createElement('button');
+    loadMoreBtn.className = 'load-more-projects-btn';
+    loadMoreBtn.textContent = 'Load More Projects';
+    loadMoreBtn.style.margin = '20px auto 0 auto';
+    loadMoreBtn.style.display = 'block';
+    loadMoreBtn.addEventListener('click', () => {
+      loadMoreProjects(category);
+    });
+    container.appendChild(loadMoreBtn);
+  }
+}
+
+function loadMoreProjects(category) {
+  if (allDataLoaded[category]) {
+    const projects = projectsData[category] || [];
+    const page = projectsPage[category] || 1;
+    const nextEnd = (page + 1) * PROJECTS_PER_PAGE;
+    if (projects.length > page * PROJECTS_PER_PAGE) {
+      projectsPage[category]++;
+      renderProjects(category);
+    }
+    if (projects.length <= nextEnd) {
+      allDataLoaded[category] = true;
+      renderProjects(category);
+    }
+    return;
+  }
+
+  const offset = projectsData[category] ? projectsData[category].length : 0;
+  fetch(`../assets/data/projects/projects_${category}.json?offset=${offset}&limit=${PROJECTS_PER_PAGE}`)
+    .then(res => res.json())
+    .then(result => {
+      let newProjects;
+      if (Array.isArray(result)) {
+        newProjects = result.slice(offset, offset + PROJECTS_PER_PAGE);
+      } else if (result.projects) {
+        newProjects = result.projects.slice(offset, offset + PROJECTS_PER_PAGE);
+      } else {
+        newProjects = [];
+      }
+      if (!projectsData[category]) projectsData[category] = [];
+      const existingTitles = new Set(projectsData[category].map(p => p.title));
+      newProjects = newProjects.filter(p => !existingTitles.has(p.title));
+      projectsData[category] = projectsData[category].concat(newProjects);
+
+      if (newProjects.length < PROJECTS_PER_PAGE) {
+        allDataLoaded[category] = true;
+      }
+
+      projectsPage[category] = (projectsPage[category] || 1) + 1;
+      renderProjects(category);
+    });
+}
+
 categories.forEach(category => {
+  allDataLoaded[category] = false;
+  projectsPage[category] = 1;
+  fetchTotalCount(category).then(() => updateCategoryCount(category));
   fetch(`../assets/data/projects/projects_${category}.json`)
     .then(res => res.json())
-    .then(projects => {
-      if (!Array.isArray(projects)) return;
-      const container = document.getElementById(`${category}-projects`);
-      if (!container) return;
-      projects.forEach(project => {
-        const card = document.createElement('div');
-        card.className = 'project-card';
-        card.textContent = project.title || 'Untitled Project';
-        card.dataset.title = project.title || 'Untitled Project';
-        card.dataset.motivation = project.motivation || '';
-        card.dataset.details = project.details || '';
-        card.dataset.skills = Array.isArray(project.skills) ? project.skills.join(', ') : '';
-        if (Array.isArray(project.links) && project.links.length) {
-          card.dataset.links = project.links.map(l => l.url || '').join('|');
-          card.dataset.linktitle = project.links.map(l => l.title || '').join('|');
-        } else {
-          card.dataset.links = '';
-          card.dataset.linktitle = '';
-        }
-        card.dataset.category = category;
-        card.addEventListener('click', () => {
-          if (isModalActive || isAnimating) return;
-          lastFocusedCard = card;
-          history.pushState({ modal: true }, '', '');
-          showSplitBarAnimation(card);
-        });
-        container.appendChild(card);
-      });
+    .then(result => {
+      let initialProjects;
+      if (Array.isArray(result)) {
+        initialProjects = result.slice(0, PROJECTS_PER_PAGE);
+      } else if (result.projects) {
+        initialProjects = result.projects.slice(0, PROJECTS_PER_PAGE);
+      } else {
+        initialProjects = [];
+      }
+      projectsData[category] = initialProjects;
+      if (initialProjects.length < PROJECTS_PER_PAGE) {
+        allDataLoaded[category] = true;
+      }
+      renderProjects(category);
     });
 });
 

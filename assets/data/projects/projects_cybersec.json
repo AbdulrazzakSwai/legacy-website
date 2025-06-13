@@ -2,10 +2,10 @@
   {
     "title": "Real-World SOC Analysis & Incident Reporting",
     "motivation": "To simulate real-world SOC operations and practice structured security incident response.",
-    "details": "Completed a 4-day practical SOC analysis exam simulating real-world incidents. Analyzed artifacts, logs, timelines, and attack evidence. Delivered a 62-page report with structured findings, screenshots, and actionable recommendations. Passed from the first try!",
-    "skills": ["SOC Analysis", "Phishing Analysis", "Malware Analysis", "Network Security", "Endpoint Security", "Log Analysis", "SIEM", "Cyber Threat Intelligence", "Incident Response", "Digital Forensics", "Documentation and Reporting"],
+    "details": "Completed a 4-day practical SOC analysis exam simulating real-world incidents. Analyzed artifacts, logs, timelines, and attack evidence. Delivered a 62-page report with structured findings, screenshots, and actionable recommendations. Passed on the first try!",
+    "skills": ["SOC Analysis", "Phishing Analysis", "Malware Analysis", "Network Security", "Endpoint Security", "Log Analysis", "SIEM", "Cyber Threat Intelligence", "DFIR", "Documentation and Reporting"],
     "links": [
-      { "url": "https://certified.tcm-sec.com/833472ca-8415-4843-aec8-53c8368d47d3", "title": "My Exam Certificate" }
+      { "url": "https://certified.tcm-sec.com/833472ca-8415-4843-aec8-53c8368d47d3", "title": "My Exam Certification" }
     ]
   },
   {
