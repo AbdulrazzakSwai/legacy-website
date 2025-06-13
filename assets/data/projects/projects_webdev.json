@@ -362,5 +362,17 @@
         "title": "freeCodeCamp - Dice Game"
       }
     ]
+  },
+  {
+    "title": "FreeCodeCamp Authors Page",
+    "motivation": "To learn how to fetch data from an external API and handle asynchronous JavaScript using promises.",
+    "details": "Built an authors page by fetching data from the freeCodeCamp API. Practiced using the fetch method, handling promises, dynamically updating the DOM to display authors, and implementing pagination to load data in stages.",
+    "skills": ["JavaScript", "Fetch API", "Promises", "Asynchronous Programming", "DOM Manipulation", "Pagination"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-fetch-and-promises-by-building-an-fcc-authors-page",
+        "title": "freeCodeCamp - FCC Authors Page"
+      }
+    ]
   }
 ]
