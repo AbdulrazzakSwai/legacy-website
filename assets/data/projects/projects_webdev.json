@@ -250,6 +250,18 @@
     "links": []
   },
   {
+    "title": "Palindrome Checker",
+    "motivation": "To apply string manipulation techniques and logical thinking to validate palindromes.",
+    "details": "Developed a JavaScript application that checks whether a given string is a palindrome. Practiced cleaning and reversing strings, using regular expressions, and implementing case-insensitive comparisons. Reinforced concepts like conditionals and built-in string methods.",
+    "skills": ["JavaScript", "String Manipulation", "Regular Expressions", "Conditional Logic"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#build-a-palindrome-checker-project",
+        "title": "freeCodeCamp - Palindrome Checker"
+      }
+    ]
+  },
+  {
     "title": "Date Formatter",
     "motivation": "To gain hands-on experience with the JavaScript Date object and understand how to format dates accurately.",
     "details": "Built a date formatting tool using JavaScript. Practiced using Date object methods such as getDate(), getMonth(), and getFullYear() to extract and format date components.",
@@ -364,7 +376,7 @@
     ]
   },
   {
-    "title": "FreeCodeCamp Authors Page",
+    "title": "Authors Page",
     "motivation": "To learn how to fetch data from an external API and handle asynchronous JavaScript using promises.",
     "details": "Built an authors page by fetching data from the freeCodeCamp API. Practiced using the fetch method, handling promises, dynamically updating the DOM to display authors, and implementing pagination to load data in stages.",
     "skills": ["JavaScript", "Fetch API", "Promises", "Asynchronous Programming", "DOM Manipulation", "Pagination"],
@@ -372,6 +384,18 @@
       {
         "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-fetch-and-promises-by-building-an-fcc-authors-page",
         "title": "freeCodeCamp - FCC Authors Page"
+      }
+    ]
+  },
+  {
+    "title": "Forum Leaderboard",
+    "motivation": "To strengthen understanding of asynchronous JavaScript by interacting with external APIs and handling data flow.",
+    "details": "Built a leaderboard that fetches user data from the freeCodeCamp forum API. Practiced using the Fetch API and handling asynchronous behavior with Promises and Async/Await. Implemented error handling using try..catch and dynamically updated the DOM based on the fetched data.",
+    "skills": ["JavaScript", "Asynchronous Programming", "Fetch API", "Promises", "Async/Await", "try..catch", "DOM Manipulation"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-asynchronous-programming-by-building-an-fcc-forum-leaderboard",
+        "title": "freeCodeCamp - FCC Forum Leaderboard"
       }
     ]
   }
