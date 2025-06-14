@@ -298,6 +298,18 @@
     ]
   },
   {
+    "title": "Roman Numeral Converter",
+    "motivation": "To apply algorithmic thinking by building a converter that converts numbers into Roman numerals.",
+    "details": "Developed a converter that takes an integer input and returns its equivalent Roman numeral representation. Practiced using loops, conditionals, and number manipulation to implement a conversion algorithm. Reinforced problem-solving and control flow logic.",
+    "skills": ["JavaScript", "Algorithmic Thinking", "Loops", "Conditional Logic", "Number Manipulation"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#build-a-roman-numeral-converter-project",
+        "title": "freeCodeCamp - Roman Numeral Converter"
+      }
+    ]
+  },
+  {
     "title": "Spam Filter",
     "motivation": "To master advanced regular expressions techniques for pattern matching, searching, and filtering text.",
     "details": "Developed a JavaScript spam filter using regular expressions. Learned and applied various regex techniques to identify and filter unwanted text patterns.",
