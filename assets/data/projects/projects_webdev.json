@@ -352,6 +352,18 @@
     ]
   },
   {
+    "title": "Telephone Number Validator",
+    "motivation": "To practice regular expressions by building a tool that validates US phone number formats.",
+    "details": "Created an application that verifies whether a given input matches valid US phone number patterns. Learned to construct and apply regular expressions to handle different formats, including optional country codes and area codes.",
+    "skills": ["JavaScript", "Regular Expressions", "Pattern Matching", "Input Validation"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#build-a-telephone-number-validator-project",
+        "title": "freeCodeCamp - Telephone Number Validator"
+      }
+    ]
+  },
+  {
     "title": "Shopping Cart",
     "motivation": "To learn Object Oriented Programming fundamentals by building a practical JavaScript project that involves classes, objects, and methods.",
     "details": "Built a shopping cart application using JavaScript OOP concepts. Created classes and instances to manage products and cart items. Implemented methods to add, remove, and update items in the cart.",
