@@ -434,5 +434,17 @@
         "title": "freeCodeCamp - FCC Forum Leaderboard"
       }
     ]
+  },
+  {
+    "title": "RPG Creature Search App",
+    "motivation": "To apply API integration skills by building a search app that retrieves and displays RPG creature data.",
+    "details": "Built an application that allows users to search for RPG creatures by name or ID using the freeCodeCamp RPG Creature API. Practiced making API requests, handling user input, and dynamically updating the DOM with the retrieved creature data.",
+    "skills": ["JavaScript", "Fetch API", "Asynchronous Programming", "DOM Manipulation", "User Input Handling"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#build-an-rpg-creature-search-app-project",
+        "title": "freeCodeCamp - RPG Creature Search App"
+      }
+    ]
   }
 ]
