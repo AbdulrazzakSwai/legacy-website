@@ -7,5 +7,17 @@
     "links": [
       { "url": "https://github.com/AbdulrazzakSwai/Cybersecurity-Scripts", "title": "naio.sh on GitHub" }
     ]
+  },
+  {
+    "title": "Caesar and Vigenère Ciphers",
+    "motivation": "To learn fundamental programming concepts in Python by building a basic text-based cipher application.",
+    "details": "Developed a cipher program in Python to practice core concepts such as variables, functions, loops, f-strings, and conditionals. Focused on implementing encryption logic and gaining hands-on experience with string manipulation.",
+    "skills": ["Python", "String Manipulation", "Variables", "Functions", "Loops", "Conditional Statements", "f-Strings"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-string-manipulation-by-building-a-cipher",
+        "title": "freeCodeCamp - Cipher"
+      }
+    ]
   }
 ]
