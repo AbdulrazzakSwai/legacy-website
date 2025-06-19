@@ -1,6 +1,6 @@
 [
   {
-    "title": "naio.sh – Nmap All-In-One Scanner",
+    "title": "naio.sh – Nmap All-In-One Scanner (Bash)",
     "motivation": "To streamline reconnaissance on VirtualBox-hosted targets during local pentesting labs.",
     "details": "A Bash script that automates a full Nmap workflow. Identifies live hosts, filters VirtualBox MACs, detects OS and services, and summarizes results per host — saving all output to local files.",
     "skills": ["Bash Scripting", "Nmap", "Automation", "Network Scanning", "Reconnaissance"],
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "title": "Caesar and Vigenère Ciphers",
+    "title": "Caesar and Vigenère Ciphers (Python)",
     "motivation": "To learn fundamental programming concepts in Python by building a basic text-based cipher application.",
     "details": "Developed a cipher program in Python to practice core concepts such as variables, functions, loops, f-strings, and conditionals. Focused on implementing encryption logic and gaining hands-on experience with string manipulation.",
     "skills": ["Python", "String Manipulation", "Variables", "Functions", "Loops", "Conditional Statements", "f-Strings"],
@@ -17,6 +17,18 @@
       {
         "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-string-manipulation-by-building-a-cipher",
         "title": "freeCodeCamp - Cipher"
+      }
+    ]
+  },
+  {
+    "title": "Luhn Algorithm (Python)",
+    "motivation": "To gain experience with numerical computations and string manipulation with Python by implementing a common error-checking algorithm.",
+    "details": "Built an application that validates numbers using the Luhn Algorithm, commonly used for credit card number verification. Practiced working with numbers, strings, loops, and conditional logic to implement the checksum calculation.",
+    "skills": ["Python", "Numerical Computations", "String Manipulation", "Loops", "Conditional Logic", "Algorithms"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-how-to-work-with-numbers-and-strings-by-implementing-the-luhn-algorithm",
+        "title": "freeCodeCamp - Luhn Algorithm"
       }
     ]
   }
