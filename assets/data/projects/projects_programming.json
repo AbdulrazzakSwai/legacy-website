@@ -31,5 +31,17 @@
         "title": "freeCodeCamp - Luhn Algorithm"
       }
     ]
+  },
+  {
+    "title": "Expense Tracker (Python)",
+    "motivation": "To explore the use of lambda functions for writing efficient operations in Python.",
+    "details": "Built an expense tracker application that leverages lambda functions to process and organize transaction data. Practiced using Python’s functional programming features to filter, sort, and calculate summaries in an easy way.",
+    "skills": ["Python", "Lambda Functions", "Data Processing", "List Manipulation"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-lambda-functions-by-building-an-expense-tracker",
+        "title": "freeCodeCamp - Expense Tracker"
+      }
+    ]
   }
 ]
