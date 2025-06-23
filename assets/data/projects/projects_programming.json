@@ -43,5 +43,101 @@
         "title": "freeCodeCamp - Expense Tracker"
       }
     ]
+  },
+  {
+    "title": "Case Converter (Pytnon)",
+    "motivation": "To learn how to use list comprehension for transforming text more efficiently in Python.",
+    "details": "Built a program that converts CamelCase or PascalCase strings into snake_case. First implemented the logic using a for loop, then rebuilt it using list comprehension to make the process easier. Practiced iterating over strings, conditional logic, and formatting output.",
+    "skills": ["Python", "List Comprehension", "String Manipulation", "For Loops", "Conditional Logic"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-list-comprehension-by-building-a-case-converter-program",
+        "title": "freeCodeCamp - Case Converter"
+      }
+    ]
+  },
+  {
+    "title": "Square Root Finder (Bisection Method) (Python)",
+    "motivation": "To understand and apply the bisection method for approximating the square root of a number using numerical techniques.",
+    "details": "Built a Python program that finds the square root of a number by repeatedly narrowing the search range using the bisection method. Practiced implementing iterative logic, handling precision, and working with floating-point comparisons in numerical analysis.",
+    "skills": ["Python", "Bisection Method", "Numerical Methods", "Iterative Algorithms"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-the-bisection-method-by-finding-the-square-root-of-a-number",
+        "title": "freeCodeCamp - Square Root Finder (Bisection Method)"
+      }
+    ]
+  },
+  {
+    "title": "Password Generator (Python)",
+    "motivation": "To learn how to use regular expressions and Python modules by building a secure password generator.",
+    "details": "Built a password generator that creates secure passwords based on specific rules. Learned how to import and use modules from the Python standard library and apply regular expressions to validate password strength and format.",
+    "skills": ["Python", "Regular Expressions", "Library Modules", "Pattern Matching", "Randomization"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-regular-expressions-by-building-a-password-generator",
+        "title": "freeCodeCamp - Password Generator"
+      }
+    ]
+  },
+  {
+    "title": "Shortest Path Algorithm (Python)",
+    "motivation": "To learn algorithm design by implementing a shortest path algorithm using core Python programming techniques.",
+    "details": "Built a program that calculates the shortest path between nodes using functions, loops, and conditionals. Practiced using dictionary comprehensions and control structures to manage graph traversal and optimize pathfinding logic.",
+    "skills": ["Python", "Algorithm Design", "Dictionary Comprehension", "Control Flow", "Graph Traversal", "Functions", "Loops", "Conditionals"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-algorithm-design-by-building-a-shortest-path-algorithm",
+        "title": "freeCodeCamp - Shortest Path Algorithm"
+      }
+    ]
+  },
+  {
+    "title": "Tower of Hanoi Solver (Python)",
+    "motivation": "To understand the concept of recursion by solving the classic Tower of Hanoi puzzle in Python.",
+    "details": "Built a program that solves the Tower of Hanoi puzzle using both iterative and recursive approaches. Gained hands-on experience with breaking down a problem into smaller subproblems, and implementing a base case and recursive step to achieve a complete solution.",
+    "skills": ["Python", "Recursion", "Loops", "Problem Solving", "Algorithm Design"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-recursion-by-solving-the-tower-of-hanoi-puzzle",
+        "title": "freeCodeCamp - Tower of Hanoi"
+      }
+    ]
+  },
+  {
+    "title": "Merge Sort Algorithm (Python)",
+    "motivation": "To learn how to work with data structures by implementing the Merge Sort algorithm using the divide and conquer approach.",
+    "details": "Built a program that sorts a list of random numbers using the Merge Sort algorithm. Practiced recursive function design, list manipulation, and understanding how data structures can be efficiently organized and processed during sorting.",
+    "skills": ["Python", "Merge Sort", "Recursion", "Divide and Conquer", "Data Structures", "List Manipulation"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-data-structures-by-building-the-merge-sort-algorithm",
+        "title": "freeCodeCamp - Merge Sort Algorithm"
+      }
+    ]
+  },
+  {
+    "title": "Sudoku Solver (Python)",
+    "motivation": "To apply object-oriented programming concepts by building and solving a Sudoku puzzle using classes and objects.",
+    "details": "Developed a Sudoku solver that represents the puzzle grid and logic using classes and objects. Practiced encapsulating data, defining methods for puzzle validation and solving, and applying recursion and backtracking techniques for the solution.",
+    "skills": ["Python", "Object-Oriented Programming", "Classes", "Objects", "Recursion", "Problem Solving"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-classes-and-objects-by-building-a-sudoku-solver",
+        "title": "freeCodeCamp - Sudoku Solver"
+      }
+    ]
+  },
+  {
+    "title": "Binary Search Tree (Python)",
+    "motivation": "To understand tree traversal and key data structure operations by building and working with a Binary Search Tree.",
+    "details": "Constructed a Binary Search Tree (BST) from scratch and implemented core operations such as insertion, search, deletion, and in-order traversal. Practiced recursive function design and learned how hierarchical data structures can improve efficiency in searching and sorting.",
+    "skills": ["Python", "Binary Search Tree", "Tree Traversal", "Recursion", "Data Structures", "Search Algorithms", "Insertion and Deletion"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-tree-traversal-by-building-a-binary-search-tree",
+        "title": "freeCodeCamp - Binary Search Tree"
+      }
+    ]
   }
 ]
