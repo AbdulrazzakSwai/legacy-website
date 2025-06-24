@@ -11,10 +11,12 @@ window.onload = () => {
     { progress: 55, barId: 'cpts-progress', percentId: 'cpts-percent' },
     { progress: 100, barId: 'cbbh-progress', percentId: 'cbbh-percent' },
     { progress: 2, barId: 'airt-progress', percentId: 'airt-percent' },
+    { progress: 0, barId: 'bscp-progress', percentId: 'bscp-percent' },
     { barId: 'rwd-progress', percentId: 'rwd-ratio', isProjectCert: true, completedProjects: 20, totalProjects: 20 },
     { barId: 'jsads-progress', percentId: 'jsads-ratio', isProjectCert: true, completedProjects: 25, totalProjects: 25 },
     { barId: 'python-progress', percentId: 'python-ratio', isProjectCert: true, completedProjects: 12, totalProjects: 19 },
     { barId: 'rd-progress', percentId: 'rd-ratio', isProjectCert: true, completedProjects: 0, totalProjects: 13 },
+    { barId: 'fsd-progress', percentId: 'fsd-ratio', isProjectCert: true, completedProjects: 0, totalProjects: 8 }
   ];
 
   observeProgressBars(progressBars, 900);
