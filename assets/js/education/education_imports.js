@@ -13,7 +13,7 @@ window.onload = () => {
     { progress: 2, barId: 'airt-progress', percentId: 'airt-percent' },
     { barId: 'rwd-progress', percentId: 'rwd-ratio', isProjectCert: true, completedProjects: 20, totalProjects: 20 },
     { barId: 'jsads-progress', percentId: 'jsads-ratio', isProjectCert: true, completedProjects: 25, totalProjects: 25 },
-    { barId: 'python-progress', percentId: 'python-ratio', isProjectCert: true, completedProjects: 11, totalProjects: 19 },
+    { barId: 'python-progress', percentId: 'python-ratio', isProjectCert: true, completedProjects: 12, totalProjects: 19 },
     { barId: 'rd-progress', percentId: 'rd-ratio', isProjectCert: true, completedProjects: 0, totalProjects: 13 },
   ];
 

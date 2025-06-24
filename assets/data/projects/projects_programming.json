@@ -139,5 +139,17 @@
         "title": "freeCodeCamp - Binary Search Tree"
       }
     ]
+  },
+  {
+    "title": "Vector Space (Python)",
+    "motivation": "To explore Python's special methods by building a vector space and customizing object behavior for mathematical operations.",
+    "details": "Built Python classes to represent vectors and implemented special methods like `__add__`, `__sub__`, `__repr__`, and `__eq__`. Gained hands-on experience with customizing object methods to model vector arithmetic and comparisons.",
+    "skills": ["Python", "Special Methods", "Object-Oriented Programming", "Vectors", "Arithmetic Operations", "Custom Object Behavior"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-special-methods-by-building-a-vector-space",
+        "title": "freeCodeCamp - Vector Space"
+      }
+    ]
   }
 ]
