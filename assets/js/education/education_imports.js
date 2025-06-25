@@ -14,7 +14,7 @@ window.onload = () => {
     { progress: 0, barId: 'bscp-progress', percentId: 'bscp-percent' },
     { barId: 'rwd-progress', percentId: 'rwd-ratio', isProjectCert: true, completedProjects: 20, totalProjects: 20 },
     { barId: 'jsads-progress', percentId: 'jsads-ratio', isProjectCert: true, completedProjects: 25, totalProjects: 25 },
-    { barId: 'python-progress', percentId: 'python-ratio', isProjectCert: true, completedProjects: 12, totalProjects: 19 },
+    { barId: 'python-progress', percentId: 'python-ratio', isProjectCert: true, completedProjects: 13, totalProjects: 19 },
     { barId: 'rd-progress', percentId: 'rd-ratio', isProjectCert: true, completedProjects: 0, totalProjects: 13 },
     { barId: 'fsd-progress', percentId: 'fsd-ratio', isProjectCert: true, completedProjects: 0, totalProjects: 8 }
   ];

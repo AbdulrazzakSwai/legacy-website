@@ -151,5 +151,17 @@
         "title": "freeCodeCamp - Vector Space"
       }
     ]
+  },
+  {
+    "title": "Equation Solver (Python)",
+    "motivation": "To apply object-oriented principles by implementing interfaces using abstract classes in Python.",
+    "details": "Built an equation solver using an abstract base class to define a formal interface. Developed linear and quadratic equation subclasses that override the abstract methods `solve()` and `analyze()`. Practiced interface enforcement, inheritance, and method overriding to ensure consistent structure across related classes.",
+    "skills": ["Python", "Object-Oriented Programming", "Abstract Classes", "Inheritance"],
+    "links": [
+      {
+        "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-interfaces-by-building-an-equation-solver",
+        "title": "freeCodeCamp - Equation Solver"
+      }
+    ]
   }
 ]
