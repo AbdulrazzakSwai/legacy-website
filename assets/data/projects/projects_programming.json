@@ -45,7 +45,7 @@
     ]
   },
   {
-    "title": "Case Converter (Pytnon)",
+    "title": "Case Converter (Python)",
     "motivation": "To learn how to use list comprehension for transforming text more efficiently in Python.",
     "details": "Built a program that converts CamelCase or PascalCase strings into snake_case. First implemented the logic using a for loop, then rebuilt it using list comprehension to make the process easier. Practiced iterating over strings, conditional logic, and formatting output.",
     "skills": ["Python", "List Comprehension", "String Manipulation", "For Loops", "Conditional Logic"],
