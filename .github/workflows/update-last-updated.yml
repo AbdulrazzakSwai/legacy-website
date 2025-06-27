@@ -1,5 +1,8 @@
 name: Update Last Updated Date
 
+permissions:
+    contents: write
+
 on:
   push:
     branches: [main]  # adjust if your default branch is different
