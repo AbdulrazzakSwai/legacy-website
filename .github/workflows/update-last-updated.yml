@@ -1,11 +1,11 @@
 name: Update Last Updated Date
 
 permissions:
-    contents: write
+  contents: write
 
 on:
   push:
-    branches: [main]  # adjust if your default branch is different
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
         run: |
           LAST_DATE=$(git log -1 --format=%cd --date=format:'%d %B %Y')
           echo "Last commit date: $LAST_DATE"
-          echo "::set-output name=date::$LAST_DATE"
+          echo "date=$LAST_DATE" >> "$GITHUB_OUTPUT"
 
       - name: Write to json/last-updated.json
         run: |
