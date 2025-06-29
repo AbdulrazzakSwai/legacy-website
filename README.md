@@ -5,8 +5,3 @@
 Welcome to my legacy **personal website!** This website previously showcased my **background**, **education**, and **personal projects**, and reflected my efforts to transform cybersecurity education at my university, from traditional theory to **gamified, practical learning** that prepares students for the real world.
 
 View this legacy website here: [https://abdulrazzakswai.github.io/legacy-website](https://abdulrazzakswai.github.io/legacy-website)
-
-## 🚫 Site License
-
-The content, layout, and design of this website are **© 2025 Abdulrazzak Swai. All rights reserved.**  
-You may not copy, reuse, or redistribute the site’s HTML, CSS, JS, data, or visual assets without written permission.
