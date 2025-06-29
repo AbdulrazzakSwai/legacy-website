@@ -12,7 +12,7 @@ I am committed to **shifting perspectives on learning** by promoting **practical
 
 ## 🌐 Legacy Site
 
-View this legacy website: [https://abdulrazzakswai.github.io/legacy-portfolio](https://abdulrazzakswai.github.io/legacy-portfolio)
+View this legacy website: [https://abdulrazzakswai.github.io/legacy-website](https://abdulrazzakswai.github.io/legacy-website)
 
 ## 🚫 Site License
 
