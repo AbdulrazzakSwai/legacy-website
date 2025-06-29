@@ -1,12 +1,10 @@
-# 🛡️ Personal Portfolio – Abdulrazzak Swai
+# 🛡️ Legacy Personal Website – Abdulrazzak Swai
 
-> **⚠️ Legacy Notice:** This is a legacy version of my portfolio website. It was previously used to represent myself and my work, but it is no longer maintained or updated. For the latest information, visit my main site: [https://www.abdulrazzakswai.me](https://www.abdulrazzakswai.me)
+> **⚠️ Legacy Notice:** This is a legacy version of my website. It was previously used to represent myself and my work, but it is no longer maintained or updated. For the latest information, visit my main website: [https://www.abdulrazzakswai.me](https://www.abdulrazzakswai.me)
 >
-> **Note:** This website is a legacy version of my portfolio and is no longer maintained or updated.
+Welcome to my legacy **personal website!** I’m a detail-oriented **cybersecurity student** and **self-driven learner**, focused on **SOC analysis**, **penetration testing**, and **web development**. I spent most of my time **learning**, **practicing**, and refining my skills through **hands-on platforms** like **Hack The Box**, **TryHackMe**, **TCM Security**, and **freeCodeCamp**, while also building **projects** to strengthen my **technical skills**.
 
-Welcome to my legacy **personal portfolio website!** I’m a detail-oriented **cybersecurity student** and **self-driven learner**, focused on **SOC analysis**, **penetration testing**, and **web development**. I spent most of my time **learning**, **practicing**, and refining my skills through **hands-on platforms** like **Hack The Box**, **TryHackMe**, **TCM Security**, and **freeCodeCamp**, while also building **projects** to strengthen my **technical skills**.
-
-This site previously showcased my **background**, **education**, and **personal projects**, and reflected my efforts to transform cybersecurity education at my university, from traditional theory to **gamified, practical learning** that prepares students for the real world.
+This website previously showcased my **background**, **education**, and **personal projects**, and reflected my efforts to transform cybersecurity education at my university, from traditional theory to **gamified, practical learning** that prepares students for the real world.
 
 ## 🎯 Education Philosophy
 
@@ -14,7 +12,7 @@ I am committed to **shifting perspectives on learning** by promoting **practical
 
 ## 🌐 Legacy Site
 
-View this legacy site: [https://abdulrazzakswai.github.io/legacy-portfolio](https://abdulrazzakswai.github.io/legacy-portfolio)
+View this legacy website: [https://abdulrazzakswai.github.io/legacy-portfolio](https://abdulrazzakswai.github.io/legacy-portfolio)
 
 ## 🚫 Site License
 
