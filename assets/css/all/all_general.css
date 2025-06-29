@@ -74,6 +74,10 @@ h2 {
   color: #1db954;
 }
 
+.new-site:hover::after {
+  content: none;
+}
+
 .navbar a::after {
   content: '';
   position: absolute;
