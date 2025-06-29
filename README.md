@@ -1,4 +1,4 @@
-# 🛡️ Legacy Personal Website – Abdulrazzak Swai
+# Legacy Personal Website – Abdulrazzak Swai
 
 > **⚠️ Legacy Notice:** This is a legacy version of my website. It was previously used to represent myself and my work, but it is no longer maintained or updated. For the latest information, visit my main website: [https://www.abdulrazzakswai.me](https://www.abdulrazzakswai.me)
 >
